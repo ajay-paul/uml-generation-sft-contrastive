@@ -1,0 +1,21 @@
+{
+  "classes": [
+    {
+      "name": "Graph",
+      "attributes": []
+    },
+    {
+      "name": "GraphElement",
+      "attributes": []
+    }
+  ],
+  "relations": [
+    {
+      "kind": "association",
+      "source": "Graph",
+      "target": "GraphElement",
+      "source_multiplicity": null,
+      "target_multiplicity": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimpleAirlineDomain {
+class Airline {
+	 name : String
+}
+}
+@enduml

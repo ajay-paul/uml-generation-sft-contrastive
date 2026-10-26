@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimpleClass {
+class Class {
+	 is_persistent : Boolean
+}
+}
+@enduml

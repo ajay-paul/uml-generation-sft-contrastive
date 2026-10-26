@@ -1,0 +1,11 @@
+@startuml
+!theme plain
+package News {
+class Date {
+	 eDay : DayKind
+	 month : Integer
+	 hours : Integer
+	 seconds : Integer
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FSM {
+class AssociationStateState {
+}
+AssociationStateState "transition 1..1" --> Transition
+class Transition {
+}
+}
+@enduml

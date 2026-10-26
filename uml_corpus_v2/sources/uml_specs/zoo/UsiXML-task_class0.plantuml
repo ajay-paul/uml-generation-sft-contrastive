@@ -1,0 +1,13 @@
+@startuml
+!theme plain
+package TaskUsiXML {
+class Task {
+	 id : String
+	 category : String
+	 importance : Integer
+	 complexityLevel : Integer
+	 centrality : Integer
+	 taskType : String
+}
+}
+@enduml

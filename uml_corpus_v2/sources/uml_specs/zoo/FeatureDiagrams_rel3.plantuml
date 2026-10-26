@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class Child {
+}
+Child "cn_src 0..*" --> Node
+class Node {
+}
+}
+@enduml

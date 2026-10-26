@@ -1,0 +1,1 @@
+{"classes":[{"name":"Place","attributes":[]},{"name":"Transition","attributes":[]}],"relations":[{"kind":"association","source":"Place","target":"Transition","source_multiplicity":null,"target_multiplicity":null}]}

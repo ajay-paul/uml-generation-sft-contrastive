@@ -1,0 +1,1 @@
+{"classes":[{"name":"PTArc","attributes":[{"name":"transition","type":"Transition"}]}],"relations":[{"kind":"association","source":"PTArc","target":"Transition","source_multiplicity":"1","target_multiplicity":"0..*"}]}

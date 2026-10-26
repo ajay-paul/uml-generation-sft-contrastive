@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class Instance {
+}
+Instance "slot 0..*" *--> AttributeLink
+class AttributeLink {
+}
+}
+@enduml

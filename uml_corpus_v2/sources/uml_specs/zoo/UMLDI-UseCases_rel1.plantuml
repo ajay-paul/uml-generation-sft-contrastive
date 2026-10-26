@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class Instance {
+}
+Instance "classifier 1..*" --> Classifier
+class Classifier {
+}
+}
+@enduml

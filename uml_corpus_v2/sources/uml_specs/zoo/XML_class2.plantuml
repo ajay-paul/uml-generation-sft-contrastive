@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package XML {
+class Text {
+}
+}
+@enduml

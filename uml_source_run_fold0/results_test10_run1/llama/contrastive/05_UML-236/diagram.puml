@@ -1,0 +1,7 @@
+@startuml
+hide empty methods
+skinparam classAttributeIconSize 0
+class "TitledElement" as C0 {
+  title
+}
+@enduml

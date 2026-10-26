@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SeminarSchedulingSystem {
+class Offering {
+}
+Offering "date 1..1" --> Date
+class Date {
+}
+}
+@enduml

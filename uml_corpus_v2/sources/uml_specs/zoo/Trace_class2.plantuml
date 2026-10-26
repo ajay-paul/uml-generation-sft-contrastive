@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package Trace {
+class Call {
+	 methodName : String
+	 DBRowsNumber : Integer
+}
+}
+@enduml

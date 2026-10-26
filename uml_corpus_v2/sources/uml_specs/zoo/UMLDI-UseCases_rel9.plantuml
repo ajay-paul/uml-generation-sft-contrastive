@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class NodeInstance {
+}
+NodeInstance "resident 0..*" --> ComponentInstance
+class ComponentInstance {
+}
+}
+@enduml

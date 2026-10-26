@@ -1,0 +1,1 @@
+in a Petri Net a Transition must have a destination, and that destination must by a Place.

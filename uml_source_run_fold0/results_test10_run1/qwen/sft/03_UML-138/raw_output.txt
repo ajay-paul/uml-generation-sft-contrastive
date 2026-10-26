@@ -1,0 +1,1 @@
+{"classes":[{"name":"TupleElement","attributes":[{"name":"value","type":"String"}]}],"relations":[]}

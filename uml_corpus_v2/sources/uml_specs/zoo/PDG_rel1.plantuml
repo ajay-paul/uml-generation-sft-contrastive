@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PDG {
+class EnterNode {
+}
+EnterNode "controlDependenceNodes 0..*" *--> ExpressionNode
+class ExpressionNode {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package BQL {
+class Predicate {
+}
+Predicate "entry 1..1" --> Entry
+class Entry {
+}
+}
+@enduml

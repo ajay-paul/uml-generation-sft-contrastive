@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package RelationalDBContent {
+class TupleElement {
+}
+TupleElement "tuple 1..1" --> Tuple
+class Tuple {
+}
+}
+@enduml

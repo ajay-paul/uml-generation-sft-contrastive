@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ActorConcept {
+class Resource {
+}
+Resource "dependencyR 1..1" --> Dependency
+class Dependency {
+}
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Automatoon {
+class Transition {
+	 letter : String
+}
+}
+@enduml

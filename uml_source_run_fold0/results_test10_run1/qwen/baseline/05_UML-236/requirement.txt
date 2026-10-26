@@ -1,0 +1,1 @@
+a TitledElement of DocBook has one title

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class Instance {
+}
+Instance "ownedInstance 0..*" *--> Instance
+class Instance {
+}
+}
+@enduml

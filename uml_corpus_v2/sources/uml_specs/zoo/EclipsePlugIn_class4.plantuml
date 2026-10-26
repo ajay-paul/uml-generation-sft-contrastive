@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class PlugIn {
+	 id : String
+	 version : String
+}
+}
+@enduml

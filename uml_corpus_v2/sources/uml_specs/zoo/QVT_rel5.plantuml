@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package qvttemplate {
+class PropertyTemplateItem {
+}
+PropertyTemplateItem "referredProperty 1..1" --> Property
+class Property {
+}
+}
+@enduml

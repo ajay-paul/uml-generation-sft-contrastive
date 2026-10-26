@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package TaskUsiXML {
+class Task {
+}
+Task "leftOperator 0..1" --> BinaryOperator
+class BinaryOperator {
+}
+}
+@enduml

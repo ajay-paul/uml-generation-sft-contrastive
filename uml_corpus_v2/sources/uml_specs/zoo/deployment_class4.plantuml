@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Deployment {
+class CommunicationLink {
+	 name : String
+}
+}
+@enduml

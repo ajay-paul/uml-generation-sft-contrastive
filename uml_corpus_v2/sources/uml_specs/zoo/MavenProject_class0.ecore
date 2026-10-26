@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ecore:EPackage xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="MavenProject" xmi:version="2.0">
+  <eClassifiers xsi:type="ecore:EClass" name="Project">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" unique="false" name="id" ordered="false">
+      <eType href="MavenProject.ecore#/1/String" xsi:type="ecore:EDataType"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" unique="false" name="artifactId" ordered="false">
+      <eType href="MavenProject.ecore#/1/String" xsi:type="ecore:EDataType"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" unique="false" name="description" ordered="false">
+      <eType href="MavenProject.ecore#/1/String" xsi:type="ecore:EDataType"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

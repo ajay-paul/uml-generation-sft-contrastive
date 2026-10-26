@@ -1,0 +1,27 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "adapter": null,
+  "condition": "baseline",
+  "quantization": "nf4",
+  "decoding": "greedy; 1024 new tokens; Qwen thinking disabled",
+  "fold": 0,
+  "seed": 42,
+  "dataset_sha256": "1d995021fa5fab9de5972cda233df38649485a5ac937a0bd373df6cb8d332f47",
+  "selection_sha256": "38b18bfcc4ff5cfce91a6807a35f57db93c5c52a1c034fffa5b412c51a90e258",
+  "system_prompt_sha256": "cc6957ff5dedf748de0b3c76a4bc30b187d02642e08c1199422f0b8128893242",
+  "ids": [
+    "UML-53",
+    "UML-160",
+    "UML-138",
+    "UML-551",
+    "UML-236",
+    "UML-226",
+    "UML-194",
+    "UML-174",
+    "UML-159",
+    "UML-546"
+  ],
+  "selection": "seeded random sample; original test rows only",
+  "diagram_rule": "valid and exact normalized graph match to provisional reference"
+}

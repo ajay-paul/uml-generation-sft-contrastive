@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PDG {
+class Expression {
+}
+Expression "innerExpressions 0..*" *--> Expression
+class Expression {
+}
+}
+@enduml

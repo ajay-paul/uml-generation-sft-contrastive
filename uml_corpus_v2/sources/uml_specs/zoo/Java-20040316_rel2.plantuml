@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JAVA {
+class JavaClass {
+}
+JavaClass "typedElements 0..*" --> ClassMember
+class ClassMember {
+}
+}
+@enduml

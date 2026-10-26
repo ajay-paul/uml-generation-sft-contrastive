@@ -1,0 +1,1 @@
+An Attribute of a SimpleClass has one type. The type is a Classifier

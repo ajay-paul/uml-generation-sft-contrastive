@@ -1,0 +1,7 @@
+{
+  "url": "https://api.github.com/repos/songyang-dev/uml-classes-and-specs/commits/main",
+  "commit": "5198087bf865e243331209bf76e80ea895673a35",
+  "release": "v1.0.0",
+  "license": "MIT",
+  "note": "CSV and fragment payloads come from release archive, not current main."
+}

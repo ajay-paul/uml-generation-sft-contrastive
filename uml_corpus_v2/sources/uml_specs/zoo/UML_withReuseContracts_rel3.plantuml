@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UMLWithReuseContrats {
+class CompositeReuser {
+}
+CompositeReuser "subreuser 0..*" *--> ReuserClause
+class ReuserClause {
+}
+}
+@enduml

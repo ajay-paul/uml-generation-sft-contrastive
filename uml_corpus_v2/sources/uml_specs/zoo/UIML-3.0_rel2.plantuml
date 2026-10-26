@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UIML {
+class Header {
+}
+Header "metas 0..*" *--> MetaData
+class MetaData {
+}
+}
+@enduml

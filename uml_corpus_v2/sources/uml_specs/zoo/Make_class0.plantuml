@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Make {
+class Makefile {
+	 name : String
+}
+}
+@enduml

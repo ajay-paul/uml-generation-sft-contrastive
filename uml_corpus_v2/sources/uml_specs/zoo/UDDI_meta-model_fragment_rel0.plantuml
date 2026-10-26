@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PIF {
+class BusinessEntity {
+}
+BusinessEntity "businessContacts 0..*" --> BusinessContact
+class BusinessContact {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package DocBook {
+class Sect1 {
+}
+Sect1 "paras 1..*" *--> Para
+class Para {
+}
+}
+@enduml

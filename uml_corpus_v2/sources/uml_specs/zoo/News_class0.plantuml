@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package News {
+class Element {
+	 title : String
+	 link : String
+}
+}
+@enduml

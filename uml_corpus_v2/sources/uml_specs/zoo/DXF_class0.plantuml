@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package DXF {
+class DXF {
+}
+}
+@enduml

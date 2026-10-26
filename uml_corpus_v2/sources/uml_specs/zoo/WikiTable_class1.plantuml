@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package WikiTable {
+class Table {
+	 border : Integer
+	 class : String
+}
+}
+@enduml

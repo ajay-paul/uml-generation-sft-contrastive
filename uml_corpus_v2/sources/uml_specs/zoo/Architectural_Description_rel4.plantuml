@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ArchitecturalDescription {
+class ArchitectureViewPoint {
+}
+ArchitectureViewPoint "defines 1..1" --> MainView
+class MainView {
+}
+}
+@enduml

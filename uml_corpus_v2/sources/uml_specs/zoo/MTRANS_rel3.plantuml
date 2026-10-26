@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Rule {
+}
+Rule "source 0..1" --> MetaClass
+class MetaClass {
+}
+}
+@enduml

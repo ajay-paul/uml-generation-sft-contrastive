@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package SimplfiedMiningMart {
+class StructuralFeature {
+}
+}
+@enduml

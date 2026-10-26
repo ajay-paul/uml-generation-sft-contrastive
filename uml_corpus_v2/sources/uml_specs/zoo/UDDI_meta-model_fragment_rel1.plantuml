@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PIF {
+class BusinessEntity {
+}
+BusinessEntity "identifierBag 0..1" --> IdentifierBag
+class IdentifierBag {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Core {
+class Classifier {
+}
+Classifier "powertypeRange 0..*" --> Generalization
+class Generalization {
+}
+}
+@enduml

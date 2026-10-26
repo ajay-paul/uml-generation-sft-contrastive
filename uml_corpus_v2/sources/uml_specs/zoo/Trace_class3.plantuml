@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Trace {
+class Index {
+	 value : Integer
+}
+}
+@enduml

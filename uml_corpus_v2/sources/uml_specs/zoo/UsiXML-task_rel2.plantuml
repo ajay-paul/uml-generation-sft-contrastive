@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package TaskUsiXML {
+class Task {
+}
+Task "decoration 0..1" --> UnaryOperator
+class UnaryOperator {
+}
+}
+@enduml

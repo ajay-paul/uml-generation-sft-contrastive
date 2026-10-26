@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package qvttemplate {
+class CollectionTemplateExp {
+	 kind : CollectionKind
+}
+}
+@enduml

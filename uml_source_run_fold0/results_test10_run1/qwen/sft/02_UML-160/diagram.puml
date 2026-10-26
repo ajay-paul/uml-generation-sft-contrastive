@@ -1,0 +1,9 @@
+@startuml
+hide empty methods
+skinparam classAttributeIconSize 0
+class "TPArc" as C0 {
+}
+class "Transition" as C1 {
+}
+C0 -- "1" C1
+@enduml

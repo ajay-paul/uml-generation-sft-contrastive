@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Table {
+}
+Table "fkeys 0..*" *--> FKey
+class FKey {
+}
+}
+@enduml

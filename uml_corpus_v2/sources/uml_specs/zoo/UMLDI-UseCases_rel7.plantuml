@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class LinkEnd {
+}
+LinkEnd "instance 1..1" --> Instance
+class Instance {
+}
+}
+@enduml

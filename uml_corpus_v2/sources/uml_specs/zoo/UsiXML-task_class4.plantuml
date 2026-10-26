@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package TaskUsiXML {
+class FiniteInteration {
+	 interation : Integer
+}
+}
+@enduml

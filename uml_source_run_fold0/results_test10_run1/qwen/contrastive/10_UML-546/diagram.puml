@@ -1,0 +1,9 @@
+@startuml
+hide empty methods
+skinparam classAttributeIconSize 0
+class "Graph" as C0 {
+}
+class "GraphElement" as C1 {
+}
+C0 -- C1
+@enduml

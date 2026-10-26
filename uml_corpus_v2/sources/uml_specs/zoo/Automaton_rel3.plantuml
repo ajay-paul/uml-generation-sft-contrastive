@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Automatoon {
+class State {
+}
+State "combination 1..1" --> State
+class State {
+}
+}
+@enduml

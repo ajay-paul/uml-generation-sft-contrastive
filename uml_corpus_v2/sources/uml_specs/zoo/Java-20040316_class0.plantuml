@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package JAVA {
+class JavaElement {
+	 name : String
+}
+}
+@enduml

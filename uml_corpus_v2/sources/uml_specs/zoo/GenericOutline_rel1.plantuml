@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Outline {
+class Node {
+}
+Node "label 1..1" *--> Label
+class Label {
+}
+}
+@enduml

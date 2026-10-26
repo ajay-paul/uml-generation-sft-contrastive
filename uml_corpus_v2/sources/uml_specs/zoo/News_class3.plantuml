@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package News {
+class Category {
+	 value : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PDG {
+class MProgramDependenceGraph {
+}
+MProgramDependenceGraph "node 1..1" *--> EnterNode
+class EnterNode {
+}
+}
+@enduml

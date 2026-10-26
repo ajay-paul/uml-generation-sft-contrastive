@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package SoftwareQualityControl {
+class DateType {
+	 day : Integer
+	 year : Integer
+}
+}
+@enduml

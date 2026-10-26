@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UIML {
+class UIML {
+}
+UIML "interfaces 0..*" *--> Interface
+class Interface {
+}
+}
+@enduml

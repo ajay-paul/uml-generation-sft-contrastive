@@ -1,0 +1,1 @@
+{"classes":[{"name":"TitledElement","attributes":[{"name":"title","type":"string"}]}],"relations":[{"kind":"association","source":"TitledElement","target":null,"source_multiplicity":null,"target_multiplicity":null}]}

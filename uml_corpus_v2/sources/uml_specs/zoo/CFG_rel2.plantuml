@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CFG {
+class ConditionalNode {
+}
+ConditionalNode "trueConditionNode 1..1" --> Node
+class Node {
+}
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package DXF {
+class Mesh {
+	 name : String
+}
+}
+@enduml

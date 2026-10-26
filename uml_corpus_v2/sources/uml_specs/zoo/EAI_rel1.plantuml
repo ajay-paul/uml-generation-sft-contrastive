@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EAI {
+class EAISink {
+}
+EAISink "resources 0..*" --> EAIResource
+class EAIResource {
+}
+}
+@enduml

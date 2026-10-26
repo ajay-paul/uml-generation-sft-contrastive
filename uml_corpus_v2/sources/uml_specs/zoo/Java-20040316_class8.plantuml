@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package JAVA {
+class FeatureParameter {
+}
+}
+@enduml

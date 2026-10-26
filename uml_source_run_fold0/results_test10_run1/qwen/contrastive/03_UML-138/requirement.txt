@@ -1,0 +1,1 @@
+A class named "TupleElement", containing an attribute called "value", of type "String".

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipseLaunchConfigurations {
+class LaunchConfiguration {
+}
+LaunchConfiguration "attributes 0..*" *--> Attribute
+class Attribute {
+}
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Contact {
+class Contact {
+	 nom : String
+}
+}
+@enduml

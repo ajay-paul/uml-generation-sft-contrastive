@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowRelevantData {
+}
+WorkflowRelevantData "transitionInformations 0..*" --> TransitionInformation
+class TransitionInformation {
+}
+}
+@enduml

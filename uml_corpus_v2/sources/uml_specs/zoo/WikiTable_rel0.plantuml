@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WikiTable {
+class Table {
+}
+Table "caption 0..1" *--> Caption
+class Caption {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CDE {
+class ICdeServer {
+}
+ICdeServer "implements 0..*" --> ICdeComponent
+class ICdeComponent {
+}
+}
+@enduml

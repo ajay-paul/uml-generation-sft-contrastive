@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Make {
+class Makefile {
+}
+Makefile "comment 0..1" *--> Comment
+class Comment {
+}
+}
+@enduml

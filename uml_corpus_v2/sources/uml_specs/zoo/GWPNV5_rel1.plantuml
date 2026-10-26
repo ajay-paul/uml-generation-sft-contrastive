@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PetriNet {
+class Place {
+}
+Place "in 0..*" --> TPArc
+class TPArc {
+}
+}
+@enduml

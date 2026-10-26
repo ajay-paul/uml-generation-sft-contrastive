@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package TextualPathExp {
+class Transition {
+	 isMultiple : Boolean
+}
+}
+@enduml

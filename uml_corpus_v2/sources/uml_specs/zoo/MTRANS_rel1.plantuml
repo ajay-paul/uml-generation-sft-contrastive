@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Module {
+}
+Module "rules 1..*" *--> Rule
+class Rule {
+}
+}
+@enduml

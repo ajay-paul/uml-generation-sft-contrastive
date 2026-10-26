@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package TextualPathExp {
+class AlternativeTrans {
+}
+AlternativeTrans "altPaths 1..*" *--> Path
+class Path {
+}
+}
+@enduml

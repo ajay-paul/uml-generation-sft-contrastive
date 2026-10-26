@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Rule {
+}
+Rule "sections 1..*" *--> Section
+class Section {
+}
+}
+@enduml

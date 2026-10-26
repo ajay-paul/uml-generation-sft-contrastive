@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ecore:EPackage xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Publication" xmi:version="2.0">
+  <eClassifiers xsi:type="ecore:EClass" name="Publication">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" unique="false" name="title" lowerBound="1" ordered="false">
+      <eType href="Publication.ecore#/1/String" xsi:type="ecore:EDataType"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" unique="false" name="nbPages" lowerBound="1" ordered="false">
+      <eType href="Publication.ecore#/1/Integer" xsi:type="ecore:EDataType"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

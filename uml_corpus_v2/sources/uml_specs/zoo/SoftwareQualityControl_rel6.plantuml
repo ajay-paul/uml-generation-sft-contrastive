@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SoftwareQualityControl {
+class Bug {
+}
+Bug "b_bugTracking 1..1" --> BugTracking
+class BugTracking {
+}
+}
+@enduml

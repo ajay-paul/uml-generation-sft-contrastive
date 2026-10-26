@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class XORGroup {
+}
+XORGroup "nx_src 0..*" --> Node
+class Node {
+}
+}
+@enduml

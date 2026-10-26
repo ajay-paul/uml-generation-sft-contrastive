@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleUML {
+class Classifier {
+}
+Classifier "typeOpposite 0..*" --> Attribute
+class Attribute {
+}
+}
+@enduml

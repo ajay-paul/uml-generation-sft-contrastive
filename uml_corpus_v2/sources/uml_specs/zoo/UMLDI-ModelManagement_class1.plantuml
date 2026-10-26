@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package Core {
+class ModelElement {
+	 name : String
+	 isSpecification : Boolean
+}
+}
+@enduml

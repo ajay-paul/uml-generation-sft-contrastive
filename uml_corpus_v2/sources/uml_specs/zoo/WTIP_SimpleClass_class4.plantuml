@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimpleClass {
+class Attribute {
+	 name : String
+}
+}
+@enduml

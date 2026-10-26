@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package QoSStatement {
+class QualificationKind {
+	 value : String
+}
+}
+@enduml

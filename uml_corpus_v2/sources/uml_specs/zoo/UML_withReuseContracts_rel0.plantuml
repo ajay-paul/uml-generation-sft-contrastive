@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UMLWithReuseContrats {
+class ReuseContract {
+}
+ReuseContract "supplier 1..1" --> ProviderClause
+class ProviderClause {
+}
+}
+@enduml

@@ -1,0 +1,23 @@
+{
+  "ruff_version": "0.17.2",
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "corpus_integrity": "passed; all five folds",
+  "unit_tests": {
+    "passed": 10
+  },
+  "saved_result_audit": {
+    "completions": 60,
+    "status": "passed"
+  },
+  "source_and_data_preservation": "copied source payloads, corpus/experiment data and ten-item results byte-identical",
+  "rebuilt_corpus_data": "byte-identical",
+  "fresh_preparation_data": "byte-identical; 635 rows",
+  "training_and_modeling_ast": "unchanged except import ordering",
+  "system_prompt": "unchanged",
+  "chart_regeneration": "passed; six charts in PNG/PDF/SVG",
+  "gpu_training_rerun": false,
+  "gpu_inference_rerun": false,
+  "github_upload_performed": false,
+  "credential_pattern_scan": "no matches for checked token/private-key patterns; not a comprehensive security audit"
+}

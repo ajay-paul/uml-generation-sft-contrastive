@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Column {
+}
+Column "foreignKey 0..*" --> ForeignKey
+class ForeignKey {
+}
+}
+@enduml

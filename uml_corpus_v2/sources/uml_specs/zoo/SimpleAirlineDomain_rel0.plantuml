@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleAirlineDomain {
+class Airport {
+}
+Airport "departingFlight 0..*" --> Flight
+class Flight {
+}
+}
+@enduml

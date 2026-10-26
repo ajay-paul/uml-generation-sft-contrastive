@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package CDE {
+class ICdeMemberExe {
+	 executionPerformance : String
+	 executionDetails : String
+}
+}
+@enduml

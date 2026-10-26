@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ActorConcept {
+class Goal {
+}
+Goal "dependencyWG 0..*" --> Dependency
+class Dependency {
+}
+}
+@enduml

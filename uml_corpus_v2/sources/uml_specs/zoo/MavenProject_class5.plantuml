@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package MavenProject {
+class Developer {
+	 id : String
+}
+}
+@enduml

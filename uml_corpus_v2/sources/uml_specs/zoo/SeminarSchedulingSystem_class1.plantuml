@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SeminarSchedulingSystem {
+class Presenter {
+	 name : String
+}
+}
+@enduml

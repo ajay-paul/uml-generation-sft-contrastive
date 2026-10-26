@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Cristal {
+class CompositeParDef {
+}
+CompositeParDef "partCompositeMember 0..*" *--> PartCompositeMember
+class PartCompositeMember {
+}
+}
+@enduml

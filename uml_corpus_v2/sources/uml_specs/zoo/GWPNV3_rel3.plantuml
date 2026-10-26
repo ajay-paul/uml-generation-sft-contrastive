@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PetriNet {
+class Transition {
+}
+Transition "out 1..*" --> TPArc
+class TPArc {
+}
+}
+@enduml

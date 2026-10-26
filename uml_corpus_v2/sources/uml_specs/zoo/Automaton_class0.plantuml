@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Automatoon {
+class FiniteAutomaton {
+	 alphabet : String
+}
+}
+@enduml

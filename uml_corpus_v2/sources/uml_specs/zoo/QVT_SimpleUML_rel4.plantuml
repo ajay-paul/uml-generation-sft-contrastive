@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleUML {
+class Class {
+}
+Class "attribute 0..*" *--> Attribute
+class Attribute {
+}
+}
+@enduml

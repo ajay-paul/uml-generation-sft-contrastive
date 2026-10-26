@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package DocBook {
+class Para {
+	 content : String
+}
+}
+@enduml

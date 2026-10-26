@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package BQL {
+class LocatedElement {
+	 location : String
+	 commentsAfter : String
+}
+}
+@enduml

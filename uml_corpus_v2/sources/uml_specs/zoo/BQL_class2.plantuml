@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package BQL {
+class Entry {
+	 name : String
+	 allFields : Boolean
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PetriNet {
+class Token {
+}
+Token "place 1..1" --> Place
+class Place {
+}
+}
+@enduml

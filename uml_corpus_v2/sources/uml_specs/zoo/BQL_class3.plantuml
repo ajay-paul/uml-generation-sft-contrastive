@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package BQL {
+class Field {
+	 name : String
+}
+}
+@enduml

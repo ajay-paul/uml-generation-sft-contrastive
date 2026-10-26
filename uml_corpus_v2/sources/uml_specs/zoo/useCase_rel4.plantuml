@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UseCase {
+class Association {
+}
+Association "actor 0..1" --> Actor
+class Actor {
+}
+}
+@enduml

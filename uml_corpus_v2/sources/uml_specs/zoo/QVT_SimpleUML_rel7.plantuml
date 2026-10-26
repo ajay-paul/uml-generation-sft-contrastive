@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleUML {
+class Association {
+}
+Association "source 1..1" --> Class
+class Class {
+}
+}
+@enduml

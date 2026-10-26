@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowProcessDefinition {
+}
+WorkflowProcessDefinition "applicationDeclarations 0..*" *--> WorkflowApplicationDeclaration
+class WorkflowApplicationDeclaration {
+}
+}
+@enduml

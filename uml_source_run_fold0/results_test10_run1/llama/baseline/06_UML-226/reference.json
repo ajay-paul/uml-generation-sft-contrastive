@@ -1,0 +1,21 @@
+{
+  "classes": [
+    {
+      "name": "Attribute",
+      "attributes": []
+    },
+    {
+      "name": "Classifier",
+      "attributes": []
+    }
+  ],
+  "relations": [
+    {
+      "kind": "association",
+      "source": "Attribute",
+      "target": "Classifier",
+      "source_multiplicity": null,
+      "target_multiplicity": "1"
+    }
+  ]
+}

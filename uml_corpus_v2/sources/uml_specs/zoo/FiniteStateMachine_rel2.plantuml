@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FSM {
+class State {
+}
+State "associationStateStatesrc 1..*" --> AssociationStateState
+class AssociationStateState {
+}
+}
+@enduml

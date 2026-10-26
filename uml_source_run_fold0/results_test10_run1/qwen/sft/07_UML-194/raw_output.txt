@@ -1,0 +1,1 @@
+{"classes":[{"name":"Tuple","attributes":[]},{"name":"TupleElement","attributes":[]}],"relations":[{"kind":"association","source":"Tuple","target":"TupleElement","source_multiplicity":null,"target_multiplicity":"1"}]}

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Trace {
+class Level {
+}
+Level "trace 1..1" --> Trace
+class Trace {
+}
+}
+@enduml

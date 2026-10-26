@@ -1,0 +1,12 @@
+@startuml
+!theme plain
+package SoftwareQualityControl {
+class Bug {
+	 number : Integer
+	 description : String
+	 originator : String
+	 commentsAnswers : String
+	 closeDate : String
+}
+}
+@enduml

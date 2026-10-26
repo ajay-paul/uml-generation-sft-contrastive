@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package EAI {
+class EAIQueue {
+	 maxLength : Integer
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ActorConcept {
+class Plan {
+}
+Plan "isFulfilled 1..1" --> Goal
+class Goal {
+}
+}
+@enduml

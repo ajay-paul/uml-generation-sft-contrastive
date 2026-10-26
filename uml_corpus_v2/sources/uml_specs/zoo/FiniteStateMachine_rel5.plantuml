@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FSM {
+class RootFolder {
+}
+RootFolder "rootFolders 0..*" *--> RootFolder
+class RootFolder {
+}
+}
+@enduml

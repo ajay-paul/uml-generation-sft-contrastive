@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class AttributeLink {
+}
+AttributeLink "instance 0..1" --> Instance
+class Instance {
+}
+}
+@enduml

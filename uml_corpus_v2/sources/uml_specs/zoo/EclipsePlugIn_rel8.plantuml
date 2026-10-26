@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class Class {
+}
+Class "librairy 1..1" --> Librairy
+class Librairy {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package XML {
+class Node {
+}
+Node "parent 0..1" --> Element
+class Element {
+}
+}
+@enduml

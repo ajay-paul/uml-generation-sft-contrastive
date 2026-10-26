@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package UIML {
+class MetaData {
+	 name : String
+}
+}
+@enduml

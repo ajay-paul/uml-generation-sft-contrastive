@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JAVA {
+class Package {
+}
+Package "classes 0..*" *--> JavaClass
+class JavaClass {
+}
+}
+@enduml

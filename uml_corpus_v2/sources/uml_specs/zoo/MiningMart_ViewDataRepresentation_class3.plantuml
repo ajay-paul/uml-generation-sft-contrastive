@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimplfiedMiningMart {
+class Class {
+	 name : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowProcessActivity {
+}
+WorkflowProcessActivity "to_transitionInformation 1..1" --> TransitionInformation
+class TransitionInformation {
+}
+}
+@enduml

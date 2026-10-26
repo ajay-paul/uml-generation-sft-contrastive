@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JavaSource {
+class MethodDefinition {
+}
+MethodDefinition "class 1..1" --> ClassDeclaration
+class ClassDeclaration {
+}
+}
+@enduml

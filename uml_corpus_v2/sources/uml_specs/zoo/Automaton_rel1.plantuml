@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Automatoon {
+class FiniteAutomaton {
+}
+FiniteAutomaton "finalStateSet 1..*" --> State
+class State {
+}
+}
+@enduml

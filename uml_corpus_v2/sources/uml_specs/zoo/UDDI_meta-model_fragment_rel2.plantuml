@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PIF {
+class TModel {
+}
+TModel "overviewDocuments 0..*" *--> OverviewDocument
+class OverviewDocument {
+}
+}
+@enduml

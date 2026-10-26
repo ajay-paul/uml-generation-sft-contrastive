@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package DOT {
+class GraphElement {
+	 label : String
+	 z : Integer
+}
+}
+@enduml

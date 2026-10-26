@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowApplicationDeclaration {
+}
+WorkflowApplicationDeclaration "revelantDatas 0..*" --> WorkflowRelevantData
+class WorkflowRelevantData {
+}
+}
+@enduml

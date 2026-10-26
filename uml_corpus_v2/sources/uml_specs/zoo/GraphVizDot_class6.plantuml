@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package DOT {
+class Constraint {
+	 val : String
+}
+}
+@enduml

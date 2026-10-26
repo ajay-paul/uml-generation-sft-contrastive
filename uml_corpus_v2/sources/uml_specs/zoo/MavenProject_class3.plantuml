@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MavenProject {
+class MailingList {
+	 name : String
+	 unsubscribe : String
+	 archive : String
+}
+}
+@enduml

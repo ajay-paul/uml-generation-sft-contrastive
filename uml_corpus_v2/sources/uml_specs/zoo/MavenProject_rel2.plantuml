@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MavenProject {
+class Build {
+}
+Build "uniTest 0..*" --> Resource
+class Resource {
+}
+}
+@enduml

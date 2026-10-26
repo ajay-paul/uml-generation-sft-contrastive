@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MavenProject {
+class Resource {
+	 targetPath : String
+	 directory : String
+	 excludes : String
+}
+}
+@enduml

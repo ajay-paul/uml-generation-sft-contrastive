@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ODPTV {
+class TechnologyObject {
+}
+TechnologyObject "implStandard 1..*" --> ImplementableStandard
+class ImplementableStandard {
+}
+}
+@enduml

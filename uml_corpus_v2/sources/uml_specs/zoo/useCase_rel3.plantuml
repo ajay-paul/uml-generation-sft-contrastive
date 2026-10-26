@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UseCase {
+class UseCaseContainer {
+}
+UseCaseContainer "ownedElement 0..*" *--> NamedElement
+class NamedElement {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package BQL {
+class Field {
+}
+Field "entry 1..1" --> Entry
+class Entry {
+}
+}
+@enduml

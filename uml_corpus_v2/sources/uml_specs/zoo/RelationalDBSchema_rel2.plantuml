@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package RelationalDBSchema {
+class Table {
+}
+Table "key 0..*" --> Column
+class Column {
+}
+}
+@enduml

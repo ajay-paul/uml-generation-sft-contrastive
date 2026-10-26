@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UseCase {
+class Include {
+}
+Include "includingCase 1..*" --> UseCase
+class UseCase {
+}
+}
+@enduml

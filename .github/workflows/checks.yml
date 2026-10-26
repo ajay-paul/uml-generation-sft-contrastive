@@ -1,0 +1,18 @@
+name: Repository checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  cpu-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: python uml_corpus_v2/src/verify_corpus.py
+      - run: python -m unittest discover -s uml_corpus_v2/tests -v
+      - run: python uml_source_run_fold0/src/audit_saved_results.py

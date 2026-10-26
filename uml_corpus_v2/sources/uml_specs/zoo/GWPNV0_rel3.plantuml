@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PetriNet {
+class Transition {
+}
+Transition "dst 1..*" --> Place
+class Place {
+}
+}
+@enduml

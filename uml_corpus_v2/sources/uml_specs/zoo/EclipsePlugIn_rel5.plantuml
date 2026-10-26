@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class PlugIn {
+}
+PlugIn "configures 1..*" --> Extension
+class Extension {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Make {
+class ShellLine {
+}
+ShellLine "ruleShellLine 1..1" --> Rule
+class Rule {
+}
+}
+@enduml

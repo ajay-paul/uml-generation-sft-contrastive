@@ -1,0 +1,1 @@
+{"classes":[{"name":"TPArc","attributes":[{"name":"sourceTransition","type":"Transition"}]}]}

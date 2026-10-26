@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package WikiTable {
+class Cell {
+	 isHeading : Boolean
+	 style : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package News {
+class Newspaper {
+}
+Newspaper "pubDate 0..1" *--> Date
+class Date {
+}
+}
+@enduml

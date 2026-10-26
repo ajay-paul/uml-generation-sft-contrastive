@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package IntegratingTroposActorConcept {
+class Position {
+}
+Position "cover 0..*" *--> Role
+class Role {
+}
+}
+@enduml

@@ -1,0 +1,1 @@
+In a Petri net, each TPArc has one source transition.

@@ -1,0 +1,21 @@
+{
+  "classes": [
+    {
+      "name": "DataBase",
+      "attributes": []
+    },
+    {
+      "name": "Table",
+      "attributes": []
+    }
+  ],
+  "relations": [
+    {
+      "kind": "composition",
+      "source": "DataBase",
+      "target": "Table",
+      "source_multiplicity": null,
+      "target_multiplicity": "0..*"
+    }
+  ]
+}

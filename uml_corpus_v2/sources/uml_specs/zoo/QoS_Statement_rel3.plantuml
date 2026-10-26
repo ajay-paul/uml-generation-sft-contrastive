@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package QoSStatement {
+class QoSContraint {
+}
+QoSContraint "qualification 1..1" --> QualificationKind
+class QualificationKind {
+}
+}
+@enduml

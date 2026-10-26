@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SoftwareQualityControl {
+class ControlsSequence {
+}
+ControlsSequence "controls 0..*" *--> Control
+class Control {
+}
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package RelationalDBContent {
+class DataBase {
+	 SGBDname : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ActorConcept {
+class Plan {
+}
+Plan "dependencyWP 0..*" --> Dependency
+class Dependency {
+}
+}
+@enduml

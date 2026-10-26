@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowRelevantData {
+}
+WorkflowRelevantData "processActivities 0..*" --> WorkflowProcessActivity
+class WorkflowProcessActivity {
+}
+}
+@enduml

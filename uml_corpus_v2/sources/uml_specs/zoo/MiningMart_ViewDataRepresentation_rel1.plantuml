@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimplfiedMiningMart {
+class DataType {
+}
+DataType "attribute 1..1" --> Attribute
+class Attribute {
+}
+}
+@enduml

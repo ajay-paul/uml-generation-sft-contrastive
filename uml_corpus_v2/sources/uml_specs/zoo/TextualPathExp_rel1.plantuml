@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package TextualPathExp {
+class Path {
+}
+Path "transitions 1..*" *--> Transition
+class Transition {
+}
+}
+@enduml

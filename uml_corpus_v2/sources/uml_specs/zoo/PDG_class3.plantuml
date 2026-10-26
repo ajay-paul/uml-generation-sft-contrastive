@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package PDG {
+class Expression {
+	 name : String
+}
+}
+@enduml

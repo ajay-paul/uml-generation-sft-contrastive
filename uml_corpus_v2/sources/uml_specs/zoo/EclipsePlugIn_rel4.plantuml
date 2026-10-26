@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class Extension {
+}
+Extension "isConfiguredInto 1..1" --> ExtensionPoint
+class ExtensionPoint {
+}
+}
+@enduml

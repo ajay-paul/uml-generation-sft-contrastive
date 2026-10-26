@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package DOT {
+class Node {
+	 shape : String
+}
+}
+@enduml

@@ -1,0 +1,166 @@
+{
+  "created": "2022-09-28T08:38:25.270359+00:00",
+  "modified": "2024-12-19T16:01:51.203177+00:00",
+  "id": 7118517,
+  "conceptrecid": "1414116",
+  "doi": "10.5281/zenodo.7118517",
+  "conceptdoi": "10.5281/zenodo.1414116",
+  "doi_url": "https://doi.org/10.5281/zenodo.7118517",
+  "metadata": {
+    "title": "PURE: a Dataset of Public Requirements Documents",
+    "doi": "10.5281/zenodo.7118517",
+    "publication_date": "2018-09-12",
+    "description": "<p>Please cite this dataset as&nbsp;<strong>Ferrari, A., Spagnolo, G. O., &amp; Gnesi, S. (2017, September). PURE: A dataset of public requirements documents. In&nbsp;<em>2017 IEEE 25th International Requirements Engineering Conference (RE)&nbsp;</em>(pp. 502-505). IEEE.</strong></p>\n<p><a href=\"https://ieeexplore.ieee.org/abstract/document/8049173\">https://ieeexplore.ieee.org/abstract/document/8049173</a></p>\n<p>This dataset presents PURE (PUblic REquirements dataset), a dataset of 79 publicly available natural language requirements documents collected from the Web. The dataset includes 34,268 sentences and can be used for natural language processing tasks that are typical in requirements engineering, such as model synthesis, abstraction identification and document structure assessment. It can be further annotated to work as a benchmark for other tasks, such as ambiguity detection, requirements categorisation and identification of equivalent re-quirements. In the associated paper, we present the dataset and we compare its language with generic English texts, showing the peculiarities of the requirements jargon, made of a restricted vocabulary of domain-specific acronyms and words, and long sentences. We also present the common XML format to which we have manually ported a subset of the documents, with the goal of facilitating replication of NLP experiments. The XML documents are also available for download.</p>\n<p>The paper associated to the dataset can be found here:&nbsp;</p>\n<p>https://ieeexplore.ieee.org/document/8049173/</p>\n<p>More info about the dataset is available here:&nbsp;</p>\n<p>http://nlreqdataset.isti.cnr.it</p>\n<p>Preprint of the paper available at ResearchGate:</p>\n<p>https://goo.gl/HxJD7X</p>\n<p>The dataset includes:</p>\n<p>- all the documents in PDF format</p>\n<p>- a subset of 19 documents in XML format</p>\n<p>- the .xsd schema of the XML files</p>\n<p>The dataset has been created by gathering data from web sources and we are not aware of license agreements or intellectual property rights on the requirements. The curator took utmost diligence in minimizing the risks of copyright infringement by using non-recent data that is less likely to be critical, by sampling a subset of the original requirements collection, and by qualitatively analyzing the requirements. In case of copyright infringement, please contact the dataset curator (Alessio Ferrari, alessio.ferrari@cnr.it, alessio.ferrari@ucd.ie) to discuss the possibility of removal of that dataset [see <a href=\"https://support.zenodo.org/help/en-gb/13-policies/140-what-is-your-take-down-procedure\" target=\"_blank\" rel=\"noopener\">Zenodo's policies</a>].</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Ferrari, Alessio",
+        "affiliation": "ISTI-CNR",
+        "orcid": "0000-0002-0636-5663"
+      },
+      {
+        "name": "Spagnolo, Giorgio Oronzo",
+        "affiliation": "ISTI-CNR"
+      },
+      {
+        "name": "Gnesi, Stefania",
+        "affiliation": "ISTI"
+      }
+    ],
+    "keywords": [
+      "requirements, requirements documents, natural language requirements, shall requirements, NLP, PURE, public requirements, specification, requirements specifications, software engineering, requirements classification, requirements tracing, traceability, ambiguity detection, defect detection, model generation,  model synthesis, software engineering dataset, requirements dataset"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1109/RE.2017.29",
+        "relation": "isSupplementedBy",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.1145/3168365.3168381",
+        "relation": "isCitedBy",
+        "scheme": "doi"
+      }
+    ],
+    "version": "2.0",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "meeting": {
+      "title": "2017 IEEE 25th International Requirements Engineering Conference",
+      "acronym": "RE",
+      "dates": "4-8 Sept. 2017",
+      "place": "Lisbon, Portugal",
+      "url": "http://ctp.di.fct.unl.pt/RE2017/"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "communities": [
+      {
+        "id": "empirical-software-engineering"
+      },
+      {
+        "id": "re-data"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1414116"
+          }
+        }
+      ]
+    }
+  },
+  "title": "PURE: a Dataset of Public Requirements Documents",
+  "links": {
+    "self": "https://zenodo.org/api/records/7118517",
+    "self_html": "https://zenodo.org/records/7118517",
+    "preview_html": "https://zenodo.org/records/7118517?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.7118517",
+    "self_doi": "https://doi.org/10.5281/zenodo.7118517",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7118517",
+    "reserve_doi": "https://zenodo.org/api/records/7118517/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/1414116",
+    "parent_html": "https://zenodo.org/records/1414116",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1414116",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1414116",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7118517/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7118517/sequence/default",
+    "files": "https://zenodo.org/api/records/7118517/files",
+    "media_files": "https://zenodo.org/api/records/7118517/media-files",
+    "latest": "https://zenodo.org/api/records/7118517/versions/latest",
+    "latest_html": "https://zenodo.org/records/7118517/latest",
+    "versions": "https://zenodo.org/api/records/7118517/versions",
+    "draft": "https://zenodo.org/api/records/7118517/draft",
+    "access_links": "https://zenodo.org/api/records/7118517/access/links",
+    "access_grants": "https://zenodo.org/api/records/7118517/access/grants",
+    "access_users": "https://zenodo.org/api/records/7118517/access/users",
+    "access_request": "https://zenodo.org/api/records/7118517/access/request",
+    "access": "https://zenodo.org/api/records/7118517/access",
+    "communities": "https://zenodo.org/api/records/7118517/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7118517/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/7118517/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/7118517/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/7118517/quota-increase",
+    "requests": "https://zenodo.org/api/records/7118517/requests"
+  },
+  "updated": "2024-12-19T16:01:51.203177+00:00",
+  "recid": "7118517",
+  "revision": 7,
+  "files": [
+    {
+      "id": "410d061c-ec32-492f-b7eb-ac00d204707a",
+      "key": "requirements-xml.zip",
+      "size": 378737,
+      "checksum": "md5:c81235c40f88a2c947ae66e0eddad585",
+      "links": {
+        "self": "https://zenodo.org/api/records/7118517/files/requirements-xml.zip/content"
+      }
+    },
+    {
+      "id": "418fd669-6404-498c-9e16-9c8f7bbce255",
+      "key": "req_document.xsd",
+      "size": 5355,
+      "checksum": "md5:f44c255db9414afb7c39265697abcb33",
+      "links": {
+        "self": "https://zenodo.org/api/records/7118517/files/req_document.xsd/content"
+      }
+    },
+    {
+      "id": "a4d9f823-c30b-42e3-9d9d-494c51cf9246",
+      "key": "requirements.zip",
+      "size": 33623628,
+      "checksum": "md5:bc319fe28619f6290badff328ca159dd",
+      "links": {
+        "self": "https://zenodo.org/api/records/7118517/files/requirements.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "44322"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 11427,
+    "unique_downloads": 9309,
+    "views": 31791,
+    "unique_views": 28735,
+    "version_downloads": 3092,
+    "version_unique_downloads": 2641,
+    "version_unique_views": 5375,
+    "version_views": 5996
+  },
+  "state": "done",
+  "submitted": true
+}

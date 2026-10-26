@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ActorConcept {
+class Actor {
+}
+Actor "goal 0..*" --> Goal
+class Goal {
+}
+}
+@enduml

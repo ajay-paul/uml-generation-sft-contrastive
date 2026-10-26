@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Column {
+	 name : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class Attribute {
+	 description : String
+	 key : Boolean
+	 name : String
+}
+}
+@enduml

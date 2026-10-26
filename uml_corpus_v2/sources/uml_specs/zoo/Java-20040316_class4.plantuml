@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package JAVA {
+class JavaClass {
+	 isAbstract : Boolean
+	 isPublic : Boolean
+}
+}
+@enduml

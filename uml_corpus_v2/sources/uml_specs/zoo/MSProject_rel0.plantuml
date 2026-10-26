@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MSProject {
+class MSProject {
+}
+MSProject "tasks 1..*" *--> Task
+class Task {
+}
+}
+@enduml

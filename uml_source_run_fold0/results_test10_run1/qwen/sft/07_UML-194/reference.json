@@ -1,0 +1,21 @@
+{
+  "classes": [
+    {
+      "name": "Tuple",
+      "attributes": []
+    },
+    {
+      "name": "TupleElement",
+      "attributes": []
+    }
+  ],
+  "relations": [
+    {
+      "kind": "association",
+      "source": "Tuple",
+      "target": "TupleElement",
+      "source_multiplicity": "1",
+      "target_multiplicity": null
+    }
+  ]
+}

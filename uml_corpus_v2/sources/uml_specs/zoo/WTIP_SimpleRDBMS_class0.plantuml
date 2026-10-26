@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Table {
+	 name : String
+}
+}
+@enduml

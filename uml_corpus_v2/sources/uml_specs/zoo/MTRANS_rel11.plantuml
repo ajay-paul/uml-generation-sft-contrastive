@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Instruction {
+}
+Instruction "body 1..1" *--> Expression
+class Expression {
+}
+}
+@enduml

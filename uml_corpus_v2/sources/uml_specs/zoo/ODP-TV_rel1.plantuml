@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ODPTV {
+class Implementation {
+}
+Implementation "implIXIT 0..*" --> IXIT
+class IXIT {
+}
+}
+@enduml

@@ -1,0 +1,1 @@
+A GraphElement contains a reference to its parent Graph.

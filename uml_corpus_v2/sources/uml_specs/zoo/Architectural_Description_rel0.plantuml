@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ArchitecturalDescription {
+class Architecture {
+}
+Architecture "describedBy 1..1" --> ArchitectureDescription
+class ArchitectureDescription {
+}
+}
+@enduml

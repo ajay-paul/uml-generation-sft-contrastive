@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FSM {
+class StateMachine {
+}
+StateMachine "transition 0..*" *--> Transition
+class Transition {
+}
+}
+@enduml

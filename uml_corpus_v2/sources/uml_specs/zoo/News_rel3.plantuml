@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package News {
+class News {
+}
+News "newspaper 1..1" --> Newspaper
+class Newspaper {
+}
+}
+@enduml

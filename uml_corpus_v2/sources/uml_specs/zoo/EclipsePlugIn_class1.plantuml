@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class ExtensionPoint {
+	 name : String
+}
+}
+@enduml

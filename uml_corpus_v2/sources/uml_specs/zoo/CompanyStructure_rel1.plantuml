@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CompanyStructure {
+class CorporateHQ {
+}
+CorporateHQ "manages 0..*" --> Store
+class Store {
+}
+}
+@enduml

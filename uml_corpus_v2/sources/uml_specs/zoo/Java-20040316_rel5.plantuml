@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JAVA {
+class FeatureParameter {
+}
+FeatureParameter "type 1..1" --> JavaClass
+class JavaClass {
+}
+}
+@enduml

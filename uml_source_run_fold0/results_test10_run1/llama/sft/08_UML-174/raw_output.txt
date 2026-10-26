@@ -1,0 +1,1 @@
+{"classes":[{"name":"Table","attributes":[]},{"name":"DataBase","attributes":[]}],"relations":[{"kind":"composition","source":"DataBase","target":"Table","source_multiplicity":null,"target_multiplicity":null}]}

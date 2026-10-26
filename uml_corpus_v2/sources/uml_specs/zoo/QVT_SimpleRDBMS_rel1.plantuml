@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Table {
+}
+Table "schema 1..1" --> Schema
+class Schema {
+}
+}
+@enduml

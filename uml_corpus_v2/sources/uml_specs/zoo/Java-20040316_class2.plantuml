@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package JAVA {
+class ClassMember {
+	 isStatic : Boolean
+}
+}
+@enduml

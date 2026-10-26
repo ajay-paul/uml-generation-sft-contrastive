@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package PDG {
+class MProgramDependenceGraph {
+}
+}
+@enduml

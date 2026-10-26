@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CFG {
+class AbstractNode {
+}
+AbstractNode "expression 1..1" *--> Expression
+class Expression {
+}
+}
+@enduml

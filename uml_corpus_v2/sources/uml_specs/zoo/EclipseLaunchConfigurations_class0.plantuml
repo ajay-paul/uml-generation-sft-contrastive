@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package EclipseLaunchConfigurations {
+class LaunchConfiguration {
+	 type : String
+}
+}
+@enduml

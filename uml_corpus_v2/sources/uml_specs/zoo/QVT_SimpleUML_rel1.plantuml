@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleUML {
+class Package {
+}
+Package "elements 0..*" *--> PackageElement
+class PackageElement {
+}
+}
+@enduml

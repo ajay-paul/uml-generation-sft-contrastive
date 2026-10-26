@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UIML {
+class UIML {
+}
+UIML "head 0..1" *--> Header
+class Header {
+}
+}
+@enduml

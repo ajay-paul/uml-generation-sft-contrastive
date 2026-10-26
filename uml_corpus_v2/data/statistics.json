@@ -1,0 +1,158 @@
+{
+  "status": "PROVISIONAL: NOT INDEPENDENTLY REVIEWED GOLD",
+  "raw_requirements_or_prose": 4530,
+  "raw_by_collection": {
+    "PURE": 2850,
+    "Dalpiaz-user-stories": 1680
+  },
+  "documents_by_collection": {
+    "PURE": 18,
+    "Dalpiaz-user-stories": 22
+  },
+  "annotation_queue": 320,
+  "source_labels": 649,
+  "provisional_original_pairs": 271,
+  "quarantined_pairs": 378,
+  "source_models_in_pairs": 54,
+  "leakage_groups": 46,
+  "quality_flags": {
+    "class_only_without_structural_detail": 203,
+    "ownership_language_needs_review": 2,
+    "text_attribute_absent_from_reference": 11,
+    "class_not_lexically_grounded": 124,
+    "attribute_not_lexically_grounded": 41,
+    "insufficient_text": 25,
+    "composition_not_explicitly_supported": 50,
+    "projection_error": 15,
+    "source_not_english_validated": 2,
+    "text_multiplicity_conflicts_with_reference": 4
+  },
+  "relation_kinds": {
+    "association": 154,
+    "composition": 35
+  },
+  "negative_mutations": {
+    "multiplicity": 137,
+    "missing_relation": 189,
+    "endpoint_assignment": 147,
+    "unsupported_attribute": 282,
+    "relation_kind": 171,
+    "missing_attribute": 106,
+    "attribute_type": 52
+  },
+  "negative_difficulty": {
+    "structural": 1084
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "originals": {
+        "validation": 54,
+        "train": 162,
+        "test": 55
+      },
+      "groups": {
+        "validation": 9,
+        "train": 29,
+        "test": 8
+      },
+      "train_augmented": 526,
+      "train_negative_pairs": 2104,
+      "augmentation_types": {
+        "original": 162,
+        "instruction_prefix": 162,
+        "quoted_specification": 162,
+        "identifier_rename": 35,
+        "counterfactual": 5
+      }
+    },
+    {
+      "fold": 1,
+      "originals": {
+        "test": 54,
+        "train": 163,
+        "validation": 54
+      },
+      "groups": {
+        "test": 9,
+        "train": 28,
+        "validation": 9
+      },
+      "train_augmented": 537,
+      "train_negative_pairs": 2148,
+      "augmentation_types": {
+        "original": 163,
+        "instruction_prefix": 163,
+        "quoted_specification": 163,
+        "identifier_rename": 42,
+        "counterfactual": 6
+      }
+    },
+    {
+      "fold": 2,
+      "originals": {
+        "train": 163,
+        "test": 54,
+        "validation": 54
+      },
+      "groups": {
+        "train": 27,
+        "test": 9,
+        "validation": 10
+      },
+      "train_augmented": 542,
+      "train_negative_pairs": 2168,
+      "augmentation_types": {
+        "original": 163,
+        "instruction_prefix": 163,
+        "quoted_specification": 163,
+        "identifier_rename": 44,
+        "counterfactual": 9
+      }
+    },
+    {
+      "fold": 3,
+      "originals": {
+        "train": 163,
+        "validation": 54,
+        "test": 54
+      },
+      "groups": {
+        "train": 26,
+        "validation": 10,
+        "test": 10
+      },
+      "train_augmented": 551,
+      "train_negative_pairs": 2204,
+      "augmentation_types": {
+        "original": 163,
+        "instruction_prefix": 163,
+        "quoted_specification": 163,
+        "identifier_rename": 52,
+        "counterfactual": 10
+      }
+    },
+    {
+      "fold": 4,
+      "originals": {
+        "train": 162,
+        "test": 54,
+        "validation": 55
+      },
+      "groups": {
+        "train": 28,
+        "test": 10,
+        "validation": 8
+      },
+      "train_augmented": 529,
+      "train_negative_pairs": 2116,
+      "augmentation_types": {
+        "original": 162,
+        "instruction_prefix": 162,
+        "quoted_specification": 162,
+        "identifier_rename": 37,
+        "counterfactual": 6
+      }
+    }
+  ]
+}

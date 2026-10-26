@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CDE {
+class IUmlType {
+}
+IUmlType "members 0..*" --> IUmlMember
+class IUmlMember {
+}
+}
+@enduml

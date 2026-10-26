@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package qvttemplate {
+class CollectionTemplateExp {
+}
+CollectionTemplateExp "part 0..*" *--> OclExpression
+class OclExpression {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ArchitecturalDescription {
+class ArchitectureView {
+}
+ArchitectureView "selectedBy 1..*" --> ArchitectureDescription
+class ArchitectureDescription {
+}
+}
+@enduml

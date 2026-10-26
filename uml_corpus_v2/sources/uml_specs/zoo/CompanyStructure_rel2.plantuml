@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CompanyStructure {
+class Store {
+}
+Store "storeBackOffice 1..1" *--> StoreBackOffice
+class StoreBackOffice {
+}
+}
+@enduml

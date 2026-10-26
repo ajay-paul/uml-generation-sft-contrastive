@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipseLaunchConfigurations {
+class ListAttribute {
+}
+ListAttribute "entries 0..*" *--> ListEntry
+class ListEntry {
+}
+}
+@enduml

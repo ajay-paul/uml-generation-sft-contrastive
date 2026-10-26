@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WikiTable {
+class Row {
+}
+Row "cells 0..*" *--> Cell
+class Cell {
+}
+}
+@enduml

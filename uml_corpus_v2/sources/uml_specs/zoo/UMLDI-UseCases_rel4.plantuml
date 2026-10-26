@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class AttributeLink {
+}
+AttributeLink "linkEnd 0..1" --> LinkEnd
+class LinkEnd {
+}
+}
+@enduml

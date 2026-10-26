@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleClass {
+class Attribute {
+}
+Attribute "type 1..1" --> Classifier
+class Classifier {
+}
+}
+@enduml

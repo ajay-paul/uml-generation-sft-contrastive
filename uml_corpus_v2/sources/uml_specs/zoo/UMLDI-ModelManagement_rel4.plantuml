@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Core {
+class Feature {
+}
+Feature "owner 0..1" --> Classifier
+class Classifier {
+}
+}
+@enduml

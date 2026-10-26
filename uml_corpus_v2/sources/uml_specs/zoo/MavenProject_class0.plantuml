@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MavenProject {
+class Project {
+	 id : String
+	 artifactId : String
+	 description : String
+}
+}
+@enduml

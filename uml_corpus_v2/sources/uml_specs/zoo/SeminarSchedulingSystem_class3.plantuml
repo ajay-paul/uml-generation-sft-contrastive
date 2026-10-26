@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package SeminarSchedulingSystem {
+class Offering {
+	 is_cancelled : Boolean
+}
+}
+@enduml

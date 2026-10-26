@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package JavaSource {
+class NamedElement {
+	 name : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UMLWithReuseContrats {
+class Dependency {
+}
+Dependency "owningDependency 0..1" --> Dependency
+class Dependency {
+}
+}
+@enduml

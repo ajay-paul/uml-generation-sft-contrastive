@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package qvttemplate {
+class PropertyTemplateItem {
+}
+PropertyTemplateItem "objContainer 1..1" --> ObjectTemplateExp
+class ObjectTemplateExp {
+}
+}
+@enduml

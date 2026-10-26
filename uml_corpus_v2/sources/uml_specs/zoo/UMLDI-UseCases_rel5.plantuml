@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Common_Behavior {
+class Link {
+}
+Link "association 1..1" --> Association
+class Association {
+}
+}
+@enduml

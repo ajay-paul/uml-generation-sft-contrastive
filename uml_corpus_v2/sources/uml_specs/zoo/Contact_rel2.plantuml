@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Contact {
+class Num_portable {
+}
+Num_portable "contact_portable 1..1" --> Contact
+class Contact {
+}
+}
+@enduml

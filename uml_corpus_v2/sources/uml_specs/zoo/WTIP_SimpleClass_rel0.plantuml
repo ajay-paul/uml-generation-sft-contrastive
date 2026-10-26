@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleClass {
+class Class {
+}
+Class "parent 0..1" --> Class
+class Class {
+}
+}
+@enduml

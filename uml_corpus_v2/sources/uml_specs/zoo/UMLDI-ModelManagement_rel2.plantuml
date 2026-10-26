@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Core {
+class Namespace {
+}
+Namespace "ownedElement 0..*" *--> ModelElement
+class ModelElement {
+}
+}
+@enduml

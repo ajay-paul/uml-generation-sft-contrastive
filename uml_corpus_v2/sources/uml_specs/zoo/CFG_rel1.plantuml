@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package CFG {
+class Node {
+}
+Node "inNode 0..1" --> Node
+class Node {
+}
+}
+@enduml

@@ -1,0 +1,22 @@
+{
+  "classes": [
+    {
+      "name": "DirectedArc",
+      "attributes": [
+        {
+          "name": "shape",
+          "type": null
+        },
+        {
+          "name": "sourceNode",
+          "type": null
+        },
+        {
+          "name": "targetNode",
+          "type": null
+        }
+      ]
+    }
+  ],
+  "relations": []
+}

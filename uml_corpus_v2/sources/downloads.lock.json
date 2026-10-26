@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pure_original_archive",
+    "url": "https://zenodo.org/api/records/7118517/files/requirements.zip/content",
+    "sha256": "a450417fb76e307b25ef6e7c8e6684676d7ec9f3f51b3cc686df0bec93be141f",
+    "bytes": 33623628
+  },
+  {
+    "id": "uml_specs_release",
+    "url": "https://github.com/songyang-dev/uml-classes-and-specs/releases/download/v1.0.0/dataset.tar.gz",
+    "sha256": "fcbb1ee126b5104d633fac7196a9c89f467f72ab52bd10ccf9c8013e812199cf",
+    "bytes": 64440283
+  }
+]

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package DocBook {
+class DocBook {
+}
+DocBook "books 1..*" *--> Book
+class Book {
+}
+}
+@enduml

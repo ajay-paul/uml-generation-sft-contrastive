@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimpleRDBMS {
+class Table {
+}
+Table "key 0..*" *--> Key
+class Key {
+}
+}
+@enduml

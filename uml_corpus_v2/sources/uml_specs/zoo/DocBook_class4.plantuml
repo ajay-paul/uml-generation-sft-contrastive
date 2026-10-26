@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package DocBook {
+class Sect1 {
+}
+}
+@enduml

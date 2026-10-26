@@ -1,0 +1,9 @@
+{
+  "schema": "uml-projection-v2",
+  "active_fold": 0,
+  "split_unit": "source-family-and-near-duplicate-component",
+  "annotation_status": "provisional",
+  "test_augmented": false,
+  "source_corpus": "/home/ajay/uml_contrastive_pilot/uml_corpus_v2",
+  "dataset_sha256": "1d995021fa5fab9de5972cda233df38649485a5ac937a0bd373df6cb8d332f47"
+}

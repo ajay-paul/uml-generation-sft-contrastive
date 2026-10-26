@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FSM {
+class StateMachine {
+}
+StateMachine "rootFolder 1..1" --> RootFolder
+class RootFolder {
+}
+}
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+!theme plain
+package CFG {
+class AbstractNode {
+}
+}
+@enduml

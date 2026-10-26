@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package SimpleAirlineDomain {
+class Passenger {
+	 name : String
+	 gender : Genre
+}
+}
+@enduml

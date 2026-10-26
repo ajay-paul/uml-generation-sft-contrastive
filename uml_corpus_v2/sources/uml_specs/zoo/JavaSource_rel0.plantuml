@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JavaSource {
+class JavaSource {
+}
+JavaSource "classes 1..*" *--> ClassDeclaration
+class ClassDeclaration {
+}
+}
+@enduml

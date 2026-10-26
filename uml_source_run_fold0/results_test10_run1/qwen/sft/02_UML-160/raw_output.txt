@@ -1,0 +1,1 @@
+{"classes":[{"name":"TPArc","attributes":[]},{"name":"Transition","attributes":[]}],"relations":[{"kind":"association","source":"TPArc","target":"Transition","source_multiplicity":null,"target_multiplicity":"1"}]}

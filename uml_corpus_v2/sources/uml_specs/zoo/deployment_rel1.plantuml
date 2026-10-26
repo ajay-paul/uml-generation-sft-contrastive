@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Deployment {
+class Specification {
+}
+Specification "ownedNode 0..*" *--> Node
+class Node {
+}
+}
+@enduml

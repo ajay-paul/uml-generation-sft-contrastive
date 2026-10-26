@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package Person {
+class Person {
+	 name : String
+	 phone : String
+}
+}
+@enduml

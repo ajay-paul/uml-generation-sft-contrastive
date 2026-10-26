@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package PetriNet {
+class Place {
+}
+Place "net 1..1" --> Net
+class Net {
+}
+}
+@enduml

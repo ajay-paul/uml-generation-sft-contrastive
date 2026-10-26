@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package Outline {
+class Node {
+	 name : String
+	 icon : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Deployment {
+class CommunicationLink {
+}
+CommunicationLink "source 0..1" --> Node
+class Node {
+}
+}
+@enduml

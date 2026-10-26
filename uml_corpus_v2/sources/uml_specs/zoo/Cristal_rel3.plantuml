@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Cristal {
+class ActCompositeMember {
+}
+ActCompositeMember "activityDefinitions 0..*" --> ActivityDefinition
+class ActivityDefinition {
+}
+}
+@enduml

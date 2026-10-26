@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Rule {
+}
+Rule "inheritances 0..*" *--> Inheritance
+class Inheritance {
+}
+}
+@enduml

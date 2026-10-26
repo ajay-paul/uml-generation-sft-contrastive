@@ -1,0 +1,1 @@
+{"classes":[{"name":"Table","attributes":[]},{"name":"RelationalDatabase","attributes":[]}],"relations":[{"kind":"composition","source":"RelationalDatabase","target":"Table","source_multiplicity":null,"target_multiplicity":null}]}

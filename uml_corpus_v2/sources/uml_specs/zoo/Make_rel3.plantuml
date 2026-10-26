@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Make {
+class RuleDep {
+}
+RuleDep "ruledep 1..1" --> Rule
+class Rule {
+}
+}
+@enduml

@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-13T16:34:07.218491+00:00",
+  "python": "3.11.17",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "torch": "2.8.0+cu128",
+  "torch_cuda_runtime": "12.8",
+  "cuda_available": true,
+  "disk_free_gib": 75.55117797851562,
+  "packages": {
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.1"
+  },
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "bf16": true,
+  "vram_gib": 39.4925537109375
+}

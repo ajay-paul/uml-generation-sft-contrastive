@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Contact {
+class Contact {
+}
+Contact "num_fixes 0..*" *--> Num_fixe
+class Num_fixe {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package DOT {
+class Graph {
+}
+Graph "contents 0..*" *--> GraphElement
+class GraphElement {
+}
+}
+@enduml

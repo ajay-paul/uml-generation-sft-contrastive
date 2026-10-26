@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class XORGroup {
+	 preliminary : Boolean
+}
+}
+@enduml

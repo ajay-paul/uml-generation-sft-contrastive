@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Outline {
+class LocatedElement {
+	 location : String
+}
+}
+@enduml

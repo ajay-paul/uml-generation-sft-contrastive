@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package CFG {
+class Expression {
+	 expressionName : String
+}
+}
+@enduml

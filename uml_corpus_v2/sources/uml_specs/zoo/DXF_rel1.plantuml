@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package DXF {
+class Mesh {
+}
+Mesh "points 0..*" *--> Point
+class Point {
+}
+}
+@enduml

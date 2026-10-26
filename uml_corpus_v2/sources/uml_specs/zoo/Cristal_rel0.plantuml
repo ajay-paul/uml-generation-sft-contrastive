@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Cristal {
+class Condition {
+}
+Condition "partCompositeMembers 0..*" --> PartCompositeMember
+class PartCompositeMember {
+}
+}
+@enduml

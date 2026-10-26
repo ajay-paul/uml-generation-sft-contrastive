@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package MTRANS {
+class Section {
+	 kind : String
+}
+}
+@enduml

@@ -1,0 +1,305 @@
+{
+  "created": "2024-10-02T08:10:34.118241+00:00",
+  "modified": "2025-01-13T21:10:58.465954+00:00",
+  "id": 13880060,
+  "conceptrecid": "13880059",
+  "doi": "10.17632/7zbk8zsd8y.1",
+  "doi_url": "https://doi.org/10.17632/7zbk8zsd8y.1",
+  "metadata": {
+    "title": "Requirements data sets (user stories)",
+    "doi": "10.17632/7zbk8zsd8y.1",
+    "publication_date": "2018-07-28",
+    "description": "<p>A collection of 22 data set of 50+ requirements each, expressed as user stories.&nbsp;</p>\n<p>The dataset has been created by gathering data from web sources and we are not aware of license agreements or intellectual property rights on the requirements / user stories. The curator took utmost diligence in minimizing the risks of copyright infringement by using non-recent data that is less likely to be critical, by sampling a subset of the original requirements collection, and by qualitatively analyzing the requirements. In case of copyright infringement, please contact the dataset curator (Fabiano Dalpiaz, f.dalpiaz@uu.nl) to discuss the possibility of removal of that dataset [see&nbsp;<a href=\"https://support.zenodo.org/help/en-gb/13-policies/140-what-is-your-take-down-procedure\" target=\"_blank\" rel=\"noopener\">Zenodo's policies</a>]</p>\n<p>The data sets have been originally used to conduct experiments about ambiguity detection with the REVV-Light tool: https://github.com/RELabUU/revv-light</p>\n<p>This collection has been originally published in Mendeley data: https://data.mendeley.com/datasets/7zbk8zsd8y/1</p>\n<h2>Overview of the datasets [data and links added in December 2024]</h2>\n<p>The following text provides a description of the datasets, including links to the systems and websites, when available. The datasets are organized by macro-category and then by identifier.</p>\n<h3>Public administration and transparency</h3>\n<p><code>g02-federalspending.txt</code> (2018) originates from early data in the Federal Spending Transparency project, which pertain to the website that is used to share publicly the spending data for the U.S. government. The website was created because of the Digital Accountability and Transparency Act of 2014 (DATA Act). The specific dataset pertains a system called DAIMS or Data Broker, which stands for DATA Act Information Model Schema. The sample that was gathered refers to a sub-project related to allowing the government to act as a data broker, thereby providing data to third parties. The data for the Data Broker project is currently not available online, although the backend seems to be hosted in <a href=\"https://github.com/fedspendingtransparency/data-act-broker-backend\" target=\"_blank\" rel=\"noopener\">GitHub</a> under a CC0 1.0 Universal license. Current and recent snapshots of federal spending related websites, including many more projects than the one described in the shared collection, can be found&nbsp;<a href=\"https://federal-spending-transparency.atlassian.net/jira/\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\n<p><code>g03-loudoun.txt</code> (2018) is a set of extracted requirements from a document, by the Loudoun County Virginia, that describes the to-be user stories and use cases about a system for land management readiness assessment called Loudoun County&nbsp;LandMARC. The source document can be found&nbsp;<a href=\"https://www.loudoun.gov/DocumentCenter/View/131287/APPENDIX-A-3---Future-State-To-Be-Business-User-Stories-and-Use-Cases?bidId=\" target=\"_blank\" rel=\"noopener\">here</a> and it is part of the <a href=\"https://www.loudoun.gov/bids.aspx?bidID=459\" target=\"_blank\" rel=\"noopener\">Electronic Land Management System and EPlan Review Project - RFP RFQ</a> issued in March 2018. More information about the overall LandMARC system and services can be found&nbsp;<a href=\"https://www.loudoun.gov/5823/LandMARC-Land-Management-Applications-Re\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\n<p><code>g04-recycling.txt</code>(2017) concerns a web application where recycling and waste disposal facilities can be searched and located. The application operates through the visualization of a map that the user can interact with. The dataset has obtained from a <a href=\"https://github.com/rafaellichen/Recycling-System/wiki/User-Stories\" target=\"_blank\" rel=\"noopener\">GitHub website</a> and it is at the basis of a students' project on web site design; the <a href=\"https://github.com/rafaellichen/Recycling-System\" target=\"_blank\" rel=\"noopener\">code is available</a> (no license).</p>\n<p><code>g05-openspending.txt</code> (2018) is about the OpenSpending project (<a href=\"https://www.openspending.org/\" target=\"_blank\" rel=\"noopener\">www</a>), a project of the Open Knowledge foundation which aims at transparency about how local governments spend money. At the time of the collection, the data was retrieved from a Trello board that is currently unavailable. The sample focuses on publishing, importing and editing datasets, and how the data should be presented. Currently, OpenSpending is managed via a <a href=\"https://github.com/os-data\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> which contains multiple sub-projects with unknown license.</p>\n<p><code>g11-nsf.txt</code> (2018) refers to a collection of user stories referring to the NSF Site Redesign &amp; Content Discovery project, which originates from a publicly accessible <a href=\"https://github.com/nsf-open/nsf\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> (GPL 2.0 license). In particular, the user stories refer to an early version of the NSF's website. The user stories can be found as&nbsp;<a href=\"https://github.com/nsf-open/nsf/issues?q=is%3Aissue+is%3Aclosed\" target=\"_blank\" rel=\"noopener\">closed Issues</a>.&nbsp;</p>\n<h3>(Research) data and meta-data management</h3>\n<p><code>g08-frictionless.txt</code> (2016) regards the Frictionless Data project, which offers an open source dataset for building data infrastructures, to be used by researchers, data scientists, and data engineers. Links to the many projects within the Frictionless Data project are on <a href=\"https://github.com/frictionlessdata\" target=\"_blank\" rel=\"noopener\">GitHub</a> (with a mix of Unlicense and MIT license) and&nbsp;<a href=\"https://frictionlessdata.io/\" target=\"_blank\" rel=\"noopener\">web</a>. The specific set of user stories has been collected in 2016 by GitHub user @danfowler and are stored in a <a href=\"https://trello.com/b/MGC4RpTZ/frictionless-data-user-stories\" target=\"_blank\" rel=\"noopener\">Trello board</a>.</p>\n<p><code>g14-datahub.txt</code> (2013) concerns the open source project&nbsp;<a href=\"https://datahubproject.io/\" target=\"_blank\" rel=\"noopener\">DataHub</a>, which is currently developed via a <a href=\"https://github.com/datahub-project/datahub\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> (the code has Apache License 2.0). DataHub is a data discovery platform which has been developed over multiple years. The specific data set is an&nbsp;<a href=\"https://datahub.io/docs/dms/datahub/developers/user-stories#stories\" target=\"_blank\" rel=\"noopener\">initial set of user stories</a>, which we can date back to 2013 thanks to a comment therein.</p>\n<p><code>g16-mis.txt</code> (2015) is a collection of user stories that pertains a repository for researchers and archivists. The source of the dataset is a public&nbsp;<a href=\"https://trello.com/b/hrulGmdz/repository-user-stories\" target=\"_blank\" rel=\"noopener\">Trello repository</a>. Although the user stories do not have explicit links to projects, it can be inferred that the stories originate from some project related to the library of Duke University.</p>\n<p><code>g17-cask.txt</code> (2016) refers to the Cask Data Application Platform (CDAP). CDAP is an open source application platform (<a href=\"https://github.com/cdapio/cdap\" target=\"_blank\" rel=\"noopener\">GitHub</a>, under Apache License 2.0) that can be used to develop applications within the Apache Hadoop ecosystem, an open-source framework which can be used for distributed processing of large datasets. The user stories are extracted from a document that includes requirements regarding dataset management for Cask 4.0, which includes the scenarios, user stories and a design for the implementation of these user stories. The raw data is available in the following <a href=\"https://cdap.atlassian.net/wiki/spaces/CE/pages/1595181111/Dataset+Management+User+Stories\" target=\"_blank\" rel=\"noopener\">environment</a>.</p>\n<p><code>g18-neurohub.txt</code> (2012) is concerned with the&nbsp;<a href=\"https://neurohub.ca/\" target=\"_blank\" rel=\"noopener\">NeuroHub platform</a>, a neuroscience data management, analysis and collaboration platform for researchers in neuroscience to collect, store, and share data with colleagues or with the research community. The user stories were collected at a time NeuroHub was still a research project sponsored by the UK Joint Information Systems Committee (JISC). For information about the research project from which the requirements were collected, see the following&nbsp;<a href=\"https://ora.ox.ac.uk/objects/uuid:df65547e-184a-4a21-b701-9e2a5bc240f4\" target=\"_blank\" rel=\"noopener\">record</a>.</p>\n<p><code>g22-rdadmp.txt</code> (2018) is a collection of user stories from the Research Data Alliance's&nbsp;<a href=\"https://www.rd-alliance.org/groups/dmp-common-standards-wg/members/all-members/\" target=\"_blank\" rel=\"noopener\">working group on DMP Common Standards</a>. Their <a href=\"https://github.com/RDA-DMP-Common\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> contains a collection of user stories that were created by asking the community to suggest functionality that should part of a website that manages data management plans. Each user story is stored as an <a href=\"https://github.com/RDA-DMP-Common/user-stories/issues\" target=\"_blank\" rel=\"noopener\">issue on the GitHub's page</a>.&nbsp;</p>\n<p><code>g23-archivesspace.txt</code> (2012-2013) refers to ArchivesSpace: an open source, web application for managing archives information. The application is designed to&nbsp;support core functions in archives administration such as accessioning; description and arrangement of processed materials including analog, hybrid, and<br>born digital content; management of authorities and rights; and reference service. The application supports collection management through collection management records, tracking of&nbsp;events, and a growing number of administrative reports. ArchivesSpace is open source and its development is hosted in <a href=\"https://github.com/archivesspace/archivesspace\" target=\"_blank\" rel=\"noopener\">GitHub</a> (Educational Community License, Version 2.0), with existing issues in a <a href=\"https://archivesspace.atlassian.net/jira/dashboards/last-visited\" target=\"_blank\" rel=\"noopener\">board</a>, but the dataset only includes older user stories (not available any more in the board) between August 28, 2012 (the&nbsp;starting date of the community) until February 28, 2013.</p>\n<p><code>g24-unibath.txt</code> (2013) concerns the development of an institutional data repository for the University of Bath. This need was driven by changes in funder and publisher policy, as well as responses from the recent Research360 data management survey sent out to all University of Bath researchers. The purpose of this would be to provide a long-term archive of our research data, with the following benefits: Ensure long-term availability of data to our researchers; fulfil funder and publisher requirements; enable and track increased impact of our research through data re-use and citation by the wider community; encourage new collaborations and deepen existing relationships with industry; enable new types of research, both within the university and the wider sector. The requirements were identified in 2013 and the original document can be found&nbsp;<a href=\"https://purehost.bath.ac.uk/ws/portalfiles/portal/230431280/IDR_User_Stories_v1.0.pdf\" target=\"_blank\" rel=\"noopener\">online</a>.</p>\n<p><code>g25-duraspace.txt</code> (2012) is a collection that originates from the development of the Data Dictionary Supplement component of the Data asset management system (DAMS) by DuraSpace (<a href=\"https://wiki.lyrasis.org/display/FF/Design+-+Audit+Service?preview=%2F68060244%2F68354291%2Fuser-stories.pdf\" target=\"_blank\" rel=\"noopener\">original document</a>). DuraSpace, or DSpace, is an active project that can be found&nbsp;<a href=\"https://dspace.org/\" target=\"_blank\" rel=\"noopener\">online</a> and is developed as an <a href=\"https://github.com/DSpace/DSpace\" target=\"_blank\" rel=\"noopener\">open source project</a> (BSD 3.0). DSpace stores, preserves and disseminates digital cultural heritage content by supporting ingestion of digital objects and their metadata; management and curation of digital objects;&nbsp; easy access to the digital objects, by both listing and searching; long-term preservation of the digital objects.</p>\n<p><code>g26-racdam.txt</code> (2015) refers to a collection of requirements that were found in an online&nbsp;<a href=\"https://trello.com/b/Ou3OzOjR/rac-dam-user-stories\" target=\"_blank\" rel=\"noopener\">Trello board</a> for a so-called RAC DAM system. Very limited information exists about the system, but the stories are organized into multiple epics: rights management, asset management, use, discovery, user management, reporting, curation, description, and preservation. It is possible to infer that the collection refers to an archiving system to be used by archivists and researchers. The online identity of the issue contributors makes us hypothesize this has to do with the Rockefeller Archive Center in New York City.</p>\n<p><code>g27-culrepo.txt</code> (2014-2015) is an extract of a document constructed by RepoExec, a group who manages multiple repositories and the overall repositories policy of the Cornell University Library (CUL). The document was publicly displayed and was accessible on their&nbsp;<a href=\"https://confluence.cornell.edu/display/culpublic/Charge\" target=\"_blank\" rel=\"noopener\">Confuence website</a> as a <a href=\"https://confluence.cornell.edu/display/culpublic/IR+User+Stories+Working+Group?preview=/326381875/327639271/Repository_User_Stories_20150114.pdf\" target=\"_blank\" rel=\"noopener\">PDF attachment</a>. The user stories in the document focus on a subset of the CUL&rsquo;s institutional repository (IR) systems.&nbsp;</p>\n<p><code>g28-zooniverse.txt</code> (2014) originates from MICO &ndash; Media In Context - an EU-funded research project to develop an integrated platform for cross-media analysis, metadata publishing, querying and recommendation. The set of US describe in particular two main showcases within the MICO project, with the first one being Zooniverse, a citizen science platform (US27-59). The second showcase that is described by the user stories is InsideOut10. InsideOut10 is a start-up and consulting firm from Italy with extensive experience on media delivery platforms and web publishing (US1-US26). The projects are based on volunteers who have access to the platform and contribute by classifying data such as images, audio and video by performing recognition tasks that cannot easily be performed by a computer. The data has been extracted from a deliverable of the MICO project that is currently available <a href=\"https://www.mico-project.eu/wp-content/uploads/2016/04/CompendiumUseCaseRequirementsAnalysisDeliverable.pdf\" target=\"_blank\" rel=\"noopener\">online</a>.</p>\n<h3>Information systems for specific domains</h3>\n<p><code>g12-camperplus.txt</code> (2017) concerns a software application called Camper+ (<a href=\"https://github.com/Notabela/Camper-Plus\" target=\"_blank\" rel=\"noopener\">GitHub</a>, MIT License), which aims to support camp administrators, camp counselors, and parents in the context of camps organized for children. The collection of user stories is retrieved from the project's <a href=\"https://github.com/Notabela/Camper-Plus/wiki\" target=\"_blank\" rel=\"noopener\">wiki</a>, which contains the <a href=\"https://github.com/Notabela/Camper-Plus/wiki/5.-User-Stories\" target=\"_blank\" rel=\"noopener\">user stories</a> and organizes the roles into <a href=\"https://github.com/Notabela/Camper-Plus/wiki/4.-Personas\" target=\"_blank\" rel=\"noopener\">personas</a>.</p>\n<p><code>g19-alfred.txt</code> (2015) describes a set of requirements from a European project called ALFRED (<a href=\"https://cordis.europa.eu/docs/projects/cnect/8/611218/080/deliverables/001-D23UserStoriesReportv15.pdf\" target=\"_blank\" rel=\"noopener\">Deliverable 2.3</a>), which is about a system that provides support for older people; a &ldquo;Personal Interactive Assistant for Independent Living and Active Ageing&rdquo;. One of the main system objectives is to support older people to actively participate&nbsp;in society and act independently. The outputs of this project led to a <a href=\"https://github.com/ALFREDProject\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> (unspecified license).</p>\n<p><code>g21-badcamp.txt</code> (~2017) is a set of user stories that originates from a&nbsp;<a href=\"https://github.com/badcamp\" target=\"_blank\" rel=\"noopener\">GitHub repository</a> (GPL 2.0 and unspecified licenses) of the&nbsp;<a href=\"https://www.badcamp.org/\" target=\"_blank\" rel=\"noopener\">BADCamp event's website</a>, an annual conference that celebrates Drupal open source websites.&nbsp;The website gives general information about the event. Moreover, it is used as a supportive tool for all attendees. All sorts of features have been added over time to support all attendees of the event. While the original user stories are not available, the <a href=\"https://github.com/badcamp/camp_distro/issues\" target=\"_blank\" rel=\"noopener\">current backlog of the website is accessible</a>.</p>\n<h3>Examples: first-version websites</h3>\n<p><code>g10-scrumalliance.txt</code>(2004) is a collection taken from a <a href=\"https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/product-backlog/example\" target=\"_blank\" rel=\"noopener\">product backlog example</a> that is currently published on the Mountain Goat Software website. As stated on that website, these stories were written to describe the functionality of an early version of the <a href=\"https://www.scrumalliance.org/\" target=\"_blank\" rel=\"noopener\">Scrum Alliance website</a>.</p>\n<p><code>g13-planningpoker.txt</code> (2010, estimated via the Internet Archive Wayback Machine) is an example -- like <code>g10-scrumalliance.txt</code> -- of a product backlog that is available on the Mountain Goat Software <a href=\"https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/product-backlog/example\" target=\"_blank\" rel=\"noopener\">website</a>. This refers to the first version of the <a href=\"https://www.planningpoker.com/\" target=\"_blank\" rel=\"noopener\">Planning Poker</a> website, which allows estimators in different locations to estimate collaboratively.</p>\n<p>&nbsp;</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Dalpiaz, Fabiano",
+        "affiliation": "Utrecht University",
+        "orcid": "0000-0003-4480-3887"
+      }
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "alternate_identifiers": [
+      {
+        "identifier": "https://data.mendeley.com/datasets/7zbk8zsd8y/1"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "communities": [
+      {
+        "id": "re-data"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13880059"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Requirements data sets (user stories)",
+  "links": {
+    "self": "https://zenodo.org/api/records/13880060",
+    "self_html": "https://zenodo.org/records/13880060",
+    "preview_html": "https://zenodo.org/records/13880060?preview=1",
+    "doi": "https://doi.org/10.17632/7zbk8zsd8y.1",
+    "self_doi": "https://doi.org/10.17632/7zbk8zsd8y.1",
+    "self_doi_html": "https://zenodo.org/doi/10.17632/7zbk8zsd8y.1",
+    "reserve_doi": "https://zenodo.org/api/records/13880060/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/13880059",
+    "parent_html": "https://zenodo.org/records/13880059",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13880060/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13880060/sequence/default",
+    "files": "https://zenodo.org/api/records/13880060/files",
+    "media_files": "https://zenodo.org/api/records/13880060/media-files",
+    "latest": "https://zenodo.org/api/records/13880060/versions/latest",
+    "latest_html": "https://zenodo.org/records/13880060/latest",
+    "versions": "https://zenodo.org/api/records/13880060/versions",
+    "draft": "https://zenodo.org/api/records/13880060/draft",
+    "access_links": "https://zenodo.org/api/records/13880060/access/links",
+    "access_grants": "https://zenodo.org/api/records/13880060/access/grants",
+    "access_users": "https://zenodo.org/api/records/13880060/access/users",
+    "access_request": "https://zenodo.org/api/records/13880060/access/request",
+    "access": "https://zenodo.org/api/records/13880060/access",
+    "communities": "https://zenodo.org/api/records/13880060/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13880060/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/13880060/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/13880060/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/13880060/quota-increase",
+    "requests": "https://zenodo.org/api/records/13880060/requests"
+  },
+  "updated": "2025-01-13T21:10:58.465954+00:00",
+  "recid": "13880060",
+  "revision": 22,
+  "files": [
+    {
+      "id": "9322893e-f94e-409d-9d61-d4af532bdd09",
+      "key": "g16-mis.txt",
+      "size": 9001,
+      "checksum": "md5:2b1644e8040850fe7fd9137676e34818",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g16-mis.txt/content"
+      }
+    },
+    {
+      "id": "b48df4a1-fd6d-4d6a-b69e-49349b900464",
+      "key": "g21-badcamp.txt",
+      "size": 10263,
+      "checksum": "md5:61e33ce39dfc33b1069d739d24ae0123",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g21-badcamp.txt/content"
+      }
+    },
+    {
+      "id": "375a7ed2-2867-429c-806f-02493ab34a42",
+      "key": "g17-cask.txt",
+      "size": 8794,
+      "checksum": "md5:3713713cad67652c8b65f161a5932337",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g17-cask.txt/content"
+      }
+    },
+    {
+      "id": "a7ad795b-61fe-452a-9e41-f9141b3a140e",
+      "key": "g10-scrumalliance.txt",
+      "size": 13032,
+      "checksum": "md5:bc911df621a9f8a8ef50821f48d96780",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g10-scrumalliance.txt/content"
+      }
+    },
+    {
+      "id": "2f395516-ddbf-4e02-ba0f-785f81b8228d",
+      "key": "g26-racdam.txt",
+      "size": 11779,
+      "checksum": "md5:6fe143a63e23ff100837f2a0d5426e77",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g26-racdam.txt/content"
+      }
+    },
+    {
+      "id": "ed607e1e-1ceb-4d9a-a580-dfab9fc433e6",
+      "key": "g13-planningpoker.txt",
+      "size": 7580,
+      "checksum": "md5:3f9b803d60ad9c8d7f28dacd067a93e5",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g13-planningpoker.txt/content"
+      }
+    },
+    {
+      "id": "363107dd-a9e1-488b-845b-5723441f6f7f",
+      "key": "g12-camperplus.txt",
+      "size": 7193,
+      "checksum": "md5:9654fe1384723db2b6f2f9d3811c4bc2",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g12-camperplus.txt/content"
+      }
+    },
+    {
+      "id": "2bd19054-87a1-4104-a07c-81d6d2d0d0af",
+      "key": "g19-alfred.txt",
+      "size": 13272,
+      "checksum": "md5:12413adafc720c25dd0977ce8d107beb",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g19-alfred.txt/content"
+      }
+    },
+    {
+      "id": "19bdb70d-c6b8-48ba-af94-6304d191ae73",
+      "key": "g08-frictionless.txt",
+      "size": 9695,
+      "checksum": "md5:ac14cb1e881399f94cb0a7010eead91f",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g08-frictionless.txt/content"
+      }
+    },
+    {
+      "id": "a9f0006f-8d48-4171-873d-ecb01637dc80",
+      "key": "g22-rdadmp.txt",
+      "size": 12210,
+      "checksum": "md5:ff3339534b81c17826f0b0cbe5fe7853",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g22-rdadmp.txt/content"
+      }
+    },
+    {
+      "id": "0eb6aa54-5655-4a11-a8c6-1f11194f2a69",
+      "key": "g25-duraspace.txt",
+      "size": 11612,
+      "checksum": "md5:f973844a919c05a693fd2d84b4c0754c",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g25-duraspace.txt/content"
+      }
+    },
+    {
+      "id": "dc15530b-69cd-4a4e-b623-9b8a6edfc940",
+      "key": "g27-culrepo.txt",
+      "size": 19389,
+      "checksum": "md5:c3820b326997bb77070e9d2d7d6d0c12",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g27-culrepo.txt/content"
+      }
+    },
+    {
+      "id": "12d6f9b5-f9ed-4ced-b229-06618f33de98",
+      "key": "g24-unibath.txt",
+      "size": 8270,
+      "checksum": "md5:0d2f0f2fa82522d19f0a01f3b3fc743f",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g24-unibath.txt/content"
+      }
+    },
+    {
+      "id": "cd0d25a7-3ecb-4d7f-a310-3d4a7d3045b3",
+      "key": "g28-zooniverse.txt",
+      "size": 6241,
+      "checksum": "md5:2559af8a4fd9226adf1d49febd3263ce",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g28-zooniverse.txt/content"
+      }
+    },
+    {
+      "id": "7eaf2e70-f49d-428f-9b16-52335d500233",
+      "key": "g02-federalspending.txt",
+      "size": 11235,
+      "checksum": "md5:85166af110b71664cb90601daeabc8ac",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g02-federalspending.txt/content"
+      }
+    },
+    {
+      "id": "2c474759-9669-4c66-8b1a-47b5bac665d1",
+      "key": "g03-loudoun.txt",
+      "size": 9156,
+      "checksum": "md5:526882303fc3fbeb095c6d6c698796cf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g03-loudoun.txt/content"
+      }
+    },
+    {
+      "id": "1e6bf7a1-95a9-43be-a461-4d72d0781e8b",
+      "key": "g14-datahub.txt",
+      "size": 9441,
+      "checksum": "md5:20267601f1f08d80ad1262d13cc35684",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g14-datahub.txt/content"
+      }
+    },
+    {
+      "id": "976450a1-3ce3-4cd2-83b7-e3346e03cd9d",
+      "key": "g18-neurohub.txt",
+      "size": 11958,
+      "checksum": "md5:01a8324d7f4108c93fd0d38f2147f65b",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g18-neurohub.txt/content"
+      }
+    },
+    {
+      "id": "a17debb4-3643-4761-aa76-18d468af91ea",
+      "key": "g11-nsf.txt",
+      "size": 9552,
+      "checksum": "md5:95b65adcf3c09879c21a377556ae20a2",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g11-nsf.txt/content"
+      }
+    },
+    {
+      "id": "5b3df378-771e-48e5-b25a-81be55a9eafe",
+      "key": "g23-archivesspace.txt",
+      "size": 4987,
+      "checksum": "md5:d76a4da1dfc13bf961be37569cd69b41",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g23-archivesspace.txt/content"
+      }
+    },
+    {
+      "id": "0886b844-8b8e-4ceb-80b1-61cdec235577",
+      "key": "g04-recycling.txt",
+      "size": 6669,
+      "checksum": "md5:604b6a8ad3f669616dadb747959a01cc",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g04-recycling.txt/content"
+      }
+    },
+    {
+      "id": "1d8e3ef7-fd38-4b2f-a894-42873c9be361",
+      "key": "g05-openspending.txt",
+      "size": 8718,
+      "checksum": "md5:72c9eca233a824e787ee68a846ca1f8c",
+      "links": {
+        "self": "https://zenodo.org/api/records/13880060/files/g05-openspending.txt/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "89017"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 8607,
+    "unique_downloads": 8103,
+    "views": 5666,
+    "unique_views": 5233,
+    "version_downloads": 8607,
+    "version_unique_downloads": 8103,
+    "version_unique_views": 5233,
+    "version_views": 5666
+  },
+  "state": "done",
+  "submitted": true
+}

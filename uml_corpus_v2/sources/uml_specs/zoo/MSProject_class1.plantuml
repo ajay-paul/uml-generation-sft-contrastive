@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package MSProject {
+class NamedElement {
+	 name : String
+}
+}
+@enduml

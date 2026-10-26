@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SeminarSchedulingSystem {
+class SeminarSchedulingSystem {
+}
+SeminarSchedulingSystem "presenter 0..*" --> Presenter
+class Presenter {
+}
+}
+@enduml

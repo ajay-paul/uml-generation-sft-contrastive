@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package WfMC {
+class WorkflowParticipantSpecification {
+}
+WorkflowParticipantSpecification "processDefinition 1..1" --> WorkflowProcessDefinition
+class WorkflowProcessDefinition {
+}
+}
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class Node {
+	 description : String
+	 object : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package QoSStatement {
+class QoSStatement {
+}
+QoSStatement "relation 1..1" --> CoumpoundQoSStatement
+class CoumpoundQoSStatement {
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Core {
+class GeneralizableElement {
+}
+GeneralizableElement "generalization 0..*" --> Generalization
+class Generalization {
+}
+}
+@enduml

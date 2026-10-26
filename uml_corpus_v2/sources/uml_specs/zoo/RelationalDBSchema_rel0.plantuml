@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package RelationalDBSchema {
+class DataBase {
+}
+DataBase "tables 0..*" *--> Table
+class Table {
+}
+}
+@enduml

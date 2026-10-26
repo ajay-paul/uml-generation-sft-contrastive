@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipsePlugIn {
+class PlugIn {
+}
+PlugIn "requires 0..*" --> PlugIn
+class PlugIn {
+}
+}
+@enduml

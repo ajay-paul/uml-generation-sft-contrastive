@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MavenProject {
+class Project {
+}
+Project "build 0..1" *--> Build
+class Build {
+}
+}
+@enduml

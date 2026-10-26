@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package Contact {
+class Num_fixe {
+	 numero : String
+}
+}
+@enduml

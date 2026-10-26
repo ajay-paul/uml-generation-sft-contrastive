@@ -1,0 +1,1 @@
+Petri nets have PTArcs and Transitions. Each PTArc is associated to exactly one transition

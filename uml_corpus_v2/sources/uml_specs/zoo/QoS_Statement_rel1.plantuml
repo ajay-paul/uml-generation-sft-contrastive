@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package QoSStatement {
+class SingleQoSStatement {
+}
+SingleQoSStatement "contraint 1..1" *--> QoSContraint
+class QoSContraint {
+}
+}
+@enduml

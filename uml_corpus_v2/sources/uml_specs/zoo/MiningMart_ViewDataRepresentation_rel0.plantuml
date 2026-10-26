@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package SimplfiedMiningMart {
+class Class {
+}
+Class "attributes 1..*" *--> Attribute
+class Attribute {
+}
+}
+@enduml

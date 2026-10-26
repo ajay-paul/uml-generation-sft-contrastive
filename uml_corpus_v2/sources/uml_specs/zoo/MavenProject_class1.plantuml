@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package MavenProject {
+class Build {
+	 defaultGoal : String
+	 unitTestSourceDirectory : String
+}
+}
+@enduml

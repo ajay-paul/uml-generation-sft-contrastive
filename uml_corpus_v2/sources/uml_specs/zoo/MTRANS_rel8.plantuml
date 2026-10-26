@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Expression {
+}
+Expression "inheritance 1..1" --> Inheritance
+class Inheritance {
+}
+}
+@enduml

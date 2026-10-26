@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package FeatureDiagrams {
+class Attribute {
+}
+Attribute "node 1..1" --> Node
+class Node {
+}
+}
+@enduml

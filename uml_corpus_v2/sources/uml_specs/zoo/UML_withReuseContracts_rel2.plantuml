@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UMLWithReuseContrats {
+class CompositeProvider {
+}
+CompositeProvider "subcontract 1..1" *--> ReuseContract
+class ReuseContract {
+}
+}
+@enduml

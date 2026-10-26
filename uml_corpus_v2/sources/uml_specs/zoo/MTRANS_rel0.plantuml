@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MTRANS {
+class Module {
+}
+Module "metaDest 0..*" --> MetaModel
+class MetaModel {
+}
+}
+@enduml

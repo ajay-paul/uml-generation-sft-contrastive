@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+package TextualPathExp {
+class PrimitiveTrans {
+	 name : String
+}
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ArchitecturalDescription {
+class ArchitectureView {
+}
+ArchitectureView "conformsTo 1..*" --> ArchitectureViewPoint
+class ArchitectureViewPoint {
+}
+}
+@enduml

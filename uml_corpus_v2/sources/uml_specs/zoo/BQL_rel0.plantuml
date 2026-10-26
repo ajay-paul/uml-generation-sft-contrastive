@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package BQL {
+class Query {
+}
+Query "entries 0..*" *--> Entry
+class Entry {
+}
+}
+@enduml

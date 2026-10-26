@@ -1,0 +1,9 @@
+@startuml
+hide empty methods
+skinparam classAttributeIconSize 0
+class "TupleElement" as C0 {
+}
+class "Tuple" as C1 {
+}
+C0 -- "1" C1
+@enduml

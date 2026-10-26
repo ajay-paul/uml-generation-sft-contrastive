@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package JAVA {
+class ClassMember {
+}
+ClassMember "owner 1..1" --> JavaClass
+class JavaClass {
+}
+}
+@enduml

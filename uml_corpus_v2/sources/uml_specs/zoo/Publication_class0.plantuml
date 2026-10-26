@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package Publication {
+class Publication {
+	 title : String
+	 nbPages : Integer
+}
+}
+@enduml

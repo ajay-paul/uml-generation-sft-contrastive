@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package MSProject {
+class Task {
+}
+Task "predecessors 0..*" --> Task
+class Task {
+}
+}
+@enduml

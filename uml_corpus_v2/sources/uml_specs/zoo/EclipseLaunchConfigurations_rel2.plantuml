@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package EclipseLaunchConfigurations {
+class MapEntry {
+}
+MapEntry "mapAttribute 1..1" --> MapAttribute
+class MapAttribute {
+}
+}
+@enduml

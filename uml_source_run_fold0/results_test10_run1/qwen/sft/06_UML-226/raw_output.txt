@@ -1,0 +1,1 @@
+{"classes":[{"name":"Classifier","attributes":[]},{"name":"SimpleClass","attributes":[]}],"relations":[{"kind":"association","source":"Classifier","target":"SimpleClass","source_multiplicity":null,"target_multiplicity":null}]}

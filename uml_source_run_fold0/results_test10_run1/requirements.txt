@@ -1,0 +1,29 @@
+01. UML-53
+in a Petri Net a Transition must have a destination, and that destination must by a Place.
+
+02. UML-160
+In a Petri net, each TPArc has one source transition.
+
+03. UML-138
+A class named "TupleElement", containing an attribute called "value", of type "String".
+
+04. UML-551
+A DirectedArc links a source node and a target node and has a shape.
+
+05. UML-236
+a TitledElement of DocBook has one title
+
+06. UML-226
+An Attribute of a SimpleClass has one type. The type is a Classifier
+
+07. UML-194
+The model contains two classes. One called 'TupleElement' and the other called 'Tuple'. It also defines a directed association that expresses that from an instance (objects) of 'TupleElement' associated 'Tuple' instances (objects) are reachable. One end of the association is labeled 'tuple' and carries a multiplicity constraint that expresses that the association relates each 'Tuple' object with exactly one 'TupleElement' object.
+
+08. UML-174
+A relational database is composed of many tables.
+
+09. UML-159
+Petri nets have PTArcs and Transitions. Each PTArc is associated to exactly one transition
+
+10. UML-546
+A GraphElement contains a reference to its parent Graph.

@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package SeminarSchedulingSystem {
+class Date {
+	 year : Integer
+	 day : Integer
+}
+}
+@enduml

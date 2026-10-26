@@ -1,0 +1,73 @@
+{
+  "n": 10,
+  "independent_parents": 10,
+  "json_valid_rate": 1.0,
+  "uml_subset_valid_rate": 0.1,
+  "exact_graph_rate": 0.1,
+  "classes": {
+    "micro": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 16,
+      "precision": 1.0,
+      "recall": 0.058823529411764705,
+      "f1": 0.1111111111111111
+    },
+    "macro_f1": 0.1
+  },
+  "attributes": {
+    "micro": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 4,
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333
+    },
+    "macro_f1": 0.1
+  },
+  "relations": {
+    "micro": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "macro_f1": 0.1
+  },
+  "full_relations": {
+    "micro": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "macro_f1": 0.1
+  },
+  "graph": {
+    "micro": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 27,
+      "precision": 1.0,
+      "recall": 0.06896551724137931,
+      "f1": 0.12903225806451613
+    },
+    "macro_f1": 0.1
+  },
+  "known_multiplicities": {
+    "micro": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "macro_f1": 0.1
+  }
+}

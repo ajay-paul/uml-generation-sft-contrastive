@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package IntegratingTroposActorConcept {
+class Agent {
+}
+Agent "occupy 1..1" --> Position
+class Position {
+}
+}
+@enduml

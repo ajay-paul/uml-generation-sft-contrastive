@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package DOT {
+class DirectedArc {
+	 sourceNode : String
+	 targetNode : String
+	 shape : String
+}
+}
+@enduml

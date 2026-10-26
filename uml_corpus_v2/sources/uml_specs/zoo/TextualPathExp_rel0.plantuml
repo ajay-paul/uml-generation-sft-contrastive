@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package TextualPathExp {
+class TextualPathExp {
+}
+TextualPathExp "path 1..1" *--> Path
+class Path {
+}
+}
+@enduml

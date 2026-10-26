@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package qvttemplate {
+class TemplateExp {
+}
+TemplateExp "bindsTo 0..1" *--> Variable
+class Variable {
+}
+}
+@enduml

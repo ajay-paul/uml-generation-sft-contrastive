@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package UseCase {
+class Extend {
+}
+Extend "extension 1..*" --> UseCase
+class UseCase {
+}
+}
+@enduml

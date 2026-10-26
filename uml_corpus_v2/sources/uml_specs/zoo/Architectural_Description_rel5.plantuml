@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package ArchitecturalDescription {
+class MainView {
+}
+MainView "isProjectedOnto 1..*" --> ArchitectureView
+class ArchitectureView {
+}
+}
+@enduml

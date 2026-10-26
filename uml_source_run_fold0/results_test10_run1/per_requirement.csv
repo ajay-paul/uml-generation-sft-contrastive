@@ -1,0 +1,61 @@
+model,condition,id,valid,exact_match,full_relation_f1,diagram_status
+llama,baseline,UML-53,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-160,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-138,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-551,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-236,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-226,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-194,0,0,0.0,not created: no exact reference match
+llama,baseline,UML-174,1,0,0.0,not created: no exact reference match
+llama,baseline,UML-159,1,0,0.0,not created: no exact reference match
+llama,baseline,UML-546,0,0,0.0,not created: no exact reference match
+llama,sft,UML-53,1,1,1.0,SVG rendered
+llama,sft,UML-160,1,0,0.0,not created: no exact reference match
+llama,sft,UML-138,1,1,1.0,SVG rendered
+llama,sft,UML-551,0,0,0.0,not created: no exact reference match
+llama,sft,UML-236,1,1,1.0,SVG rendered
+llama,sft,UML-226,1,0,0.0,not created: no exact reference match
+llama,sft,UML-194,1,1,1.0,SVG rendered
+llama,sft,UML-174,1,0,0.0,not created: no exact reference match
+llama,sft,UML-159,1,1,1.0,SVG rendered
+llama,sft,UML-546,1,1,1.0,SVG rendered
+llama,contrastive,UML-53,1,1,1.0,SVG rendered
+llama,contrastive,UML-160,1,0,0.0,not created: no exact reference match
+llama,contrastive,UML-138,1,1,1.0,SVG rendered
+llama,contrastive,UML-551,0,0,0.0,not created: no exact reference match
+llama,contrastive,UML-236,1,1,1.0,SVG rendered
+llama,contrastive,UML-226,1,0,0.0,not created: no exact reference match
+llama,contrastive,UML-194,1,1,1.0,SVG rendered
+llama,contrastive,UML-174,1,0,0.0,not created: no exact reference match
+llama,contrastive,UML-159,1,1,1.0,SVG rendered
+llama,contrastive,UML-546,1,1,1.0,SVG rendered
+qwen,baseline,UML-53,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-160,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-138,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-551,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-236,1,1,1.0,SVG rendered
+qwen,baseline,UML-226,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-194,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-174,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-159,0,0,0.0,not created: no exact reference match
+qwen,baseline,UML-546,0,0,0.0,not created: no exact reference match
+qwen,sft,UML-53,1,1,1.0,SVG rendered
+qwen,sft,UML-160,1,1,1.0,SVG rendered
+qwen,sft,UML-138,1,1,1.0,SVG rendered
+qwen,sft,UML-551,0,0,0.0,not created: no exact reference match
+qwen,sft,UML-236,1,1,1.0,SVG rendered
+qwen,sft,UML-226,1,0,0.0,not created: no exact reference match
+qwen,sft,UML-194,1,0,0.0,not created: no exact reference match
+qwen,sft,UML-174,1,0,0.0,not created: no exact reference match
+qwen,sft,UML-159,1,1,1.0,SVG rendered
+qwen,sft,UML-546,1,1,1.0,SVG rendered
+qwen,contrastive,UML-53,1,1,1.0,SVG rendered
+qwen,contrastive,UML-160,1,1,1.0,SVG rendered
+qwen,contrastive,UML-138,1,1,1.0,SVG rendered
+qwen,contrastive,UML-551,0,0,0.0,not created: no exact reference match
+qwen,contrastive,UML-236,1,1,1.0,SVG rendered
+qwen,contrastive,UML-226,1,0,0.0,not created: no exact reference match
+qwen,contrastive,UML-194,1,0,0.0,not created: no exact reference match
+qwen,contrastive,UML-174,1,0,0.0,not created: no exact reference match
+qwen,contrastive,UML-159,1,1,1.0,SVG rendered
+qwen,contrastive,UML-546,1,1,1.0,SVG rendered

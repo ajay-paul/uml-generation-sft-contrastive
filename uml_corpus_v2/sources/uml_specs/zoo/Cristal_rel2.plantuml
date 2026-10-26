@@ -1,0 +1,10 @@
+@startuml
+!theme plain
+package Cristal {
+class CompositeActDef {
+}
+CompositeActDef "actCompositeMembers 0..*" *--> ActCompositeMember
+class ActCompositeMember {
+}
+}
+@enduml

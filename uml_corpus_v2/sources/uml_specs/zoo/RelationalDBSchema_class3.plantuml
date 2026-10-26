@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+package RelationalDBSchema {
+class Column {
+	 dataType : String
+	 defaultValue : String
+}
+}
+@enduml
