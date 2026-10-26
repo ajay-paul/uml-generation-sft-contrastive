@@ -17,7 +17,7 @@ uml_source_run_fold0/          The prepared experiment (run commands from here)
   scripts/                    Experiment and ten-item evaluation commands
   data/                       Exact prepared data used by the saved experiment
   models.lock.json            Recorded model checkpoint revisions
-  environment*.json/txt       Recorded VM environment (not newly measured)
+  environment*.json/txt       Recorded VM environment 
   results_test10_run1/         Saved 60 completions, references, scores and charts
   runs/                       Created by training; model weights are not distributed
  docs/training_runs/           Original run histories and adapter configurations
